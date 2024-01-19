@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Личный кабинет</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap&_v=20240118214023" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240118214023">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/css/intlTelInput.css?_v=20240118214023">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header header_account">
+			<div class="header__container">
+				<div class="header__column">
+					<a href="home.html" class="header__logo">
+						<picture><source srcset="img/logo.webp" type="image/webp"><img class="img-fluid" src="img/logo.png" alt=""></picture>
+					</a>
+					<div data-dropdown class="header__dropdown  dropdown-lang dropdown-header">
+						<button data-dropdown-btn class="dropdown-header__btn" type="button">
+							<span>Ua</span>
+							<img src="img/icons/triangle.svg" class="arrow" alt="">
+						</button>
+						<div class="dropdown-lang__list">
+							<a href="#" class="dropdown-lang__item hhv-green">Eng</a>
+							<a href="#" class="dropdown-lang__item hhv-green">Ru</a>
+						</div>
+					</div>
+				</div>
+				<div class="header__column">
+					<div class="header__menu">
+						<a href="about.html" class="header__link hhv-green ">О платформе</a>
+						<a href="catalog.html" class="header__link hhv-green ">Каталог каналов</a>
+						<a href="faq.html" class="header__link hhv-green ">FAQ</a>
+					</div>
+					<div data-dropdown class="header__dropdown dropdown-header dropdown-header_sm">
+						<button data-dropdown-btn class="dropdown-header__btn" type="button">
+							<span>Баланс</span>
+							<img src="img/icons/triangle.svg" class="arrow" alt="">
+						</button>
+						<div class="dropdown-header__list dropdown-header__list_sm">
+							<a href="#" class="button">Пополнить баланс</a>
+							<a href="#" class="dropdown-header__link hhv-green">Вывести деньги</a>
+							<a href="#" class="dropdown-header__link hhv-green">История платежа</a>
+							<div class="dropdown-header__row">
+								<div class="dropdown-header__text">Заморожено</div>
+								<div class="dropdown-header__price">0.00 UAH</div>
+							</div>
+						</div>
+					</div>
+					<a href="cart.html" class="header__cart">
+						<img class="img-fluid" src="img/icons/cart.svg" alt="">
+						<span>0</span>
+					</a>
+					<a href="#" class="header__avatar">
+						<picture><source srcset="img/channel/avatar-not-found.webp" type="image/webp"><img class="img-fluid" src="img/channel/avatar-not-found.png" alt=""></picture>
+					</a>
+					<div data-dropdown class="header__dropdown dropdown-header">
+						<button data-dropdown-btn class="dropdown-header__btn icon-menu" type="button">
+							<span></span>
+						</button>
+						<div class="dropdown-header__list dropdown-header__list_main">
+							<a href="about.html" class="dropdown-header__item dropdown-header__item_active">
+								<span>
+									О платформе
+								</span>
+							</a>
+							<a href="catalog.html" class="dropdown-header__item">
+								<span>
+									Каталог каналов
+								</span>
+							</a>
+							<a href="tracking-posts.html" class="dropdown-header__item">
+								<span>
+									Отслеживание постов
+								</span>
+							</a>
+							<a href="my-channels.html" class="dropdown-header__item">
+								<span>
+									Мои каналы
+								</span>
+							</a>
+							<a href="faq.html" class="dropdown-header__item">
+								<span>
+									FAQ
+								</span>
+							</a>
+							<a href="home.html" class="dropdown-header__item">
+								<span>
+									Вернуться на главную
+								</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="account-mainscreen">
+				<div class="account-mainscreen__container">
+					<div class="info-account">
+						<div class="info-account__item">
+							<div class="info-account__head">
+								<div class="info-account__img-wrap">
+									<div class="info-account__img">
+										<picture><source srcset="img/channel/avatar-not-found.webp" type="image/webp"><img class="img-fluid" src="img/channel/avatar-not-found.png" alt=""></picture>
+									</div>
+									<button class="info-account__label hhv-blue" type="button">Сменить фото</button>
+								</div>
+								<div class="info-account__head-content">
+									<div class="label-dark label-dark_s24">Леонид Овчинников</div>
+									<div class="info-account__row">
+										<div class="info-account__row-item">
+											<div class="info-account__icon">
+												<img class="img-fluid" src="img/icons/pig.svg" alt="">
+											</div>
+											<div class="info-account__row-content">
+												<div class="label-black label-black_s16">Баланс</div>
+												<div class="label-blue label-blue_s16">1 800.00 UAH</div>
+											</div>
+										</div>
+										<a class="button button_sm button_no-bg" href="get-money.html">Вывод средств</a>
+									</div>
+									<div data-da=".info-account__content,480.98,first" class="info-account__head-email">
+										<span class="label-black label-black_s16">Email:</span>
+										<a href="mailto:leonid.nsl@gmail.com">leonid.nsl@gmail.com</a>
+									</div>
+									<div data-da=".info-account__content,480.98,first" class="info-account__head-email">
+										<span class="label-black label-black_s16">Номер телефона:</span>
+										<a href="tel:+380503315146"> +38(050)331-51-46</a>
+									</div>
+								</div>
+							</div>
+							<div class="info-account__content">
+								<textarea class="info-account__textarea" placeholder="О вас, как о владельце площадок" name="about" id="about"></textarea>
+							</div>
+						</div>
+					</div>
+					<form class="account-mainscreen__form">
+						<h2 class="label-white label-white_s24">Настройки</h2>
+						<div class="account-mainscreen__form-content">
+							<div class="settings-account account-mainscreen__item">
+								<div class="settings-account__content">
+									<div class="settings-account__item">
+										<div class="label-white">Telegram:</div>
+										<button class="button button_sm button_no-bg" type="button">Прикрепить</button>
+									</div>
+									<div class="settings-account__item">
+										<div class="form">
+											<div class="search-form__item">
+												<label for="qiwi" class="label-white">Email:</label>
+												<input type="text" id="email" name="email" placeholder="leonid.nsl@gmail.com" class="form__input">
+											</div>
+										</div>
+									</div>
+									<div class="settings-account__item">
+										<div class="form">
+											<div class="search-form__item">
+												<label for="qiwi" class="label-white">Номер телефона:</label>
+												<input type="number" id="phone1" name="phone" placeholder="+38(050)331-51-46" class="form__input">
+											</div>
+										</div>
+									</div>
+									<div data-da=".account-mainscreen__form,767.98" class="settings-account__item settings-account__item_btn">
+										<button class="button" type="button">Сохранить</button>
+									</div>
+								</div>
+							</div>
+							<div class="change-pass account-mainscreen__item">
+								<div class="form form-pass">
+									<div class="search-form__item">
+										<label for="subjects" class="label-white">Валюта аккаунта:</label>
+										<select name="currency" id="currency" data-class-modif="custom-select">
+											<option value="1" selected>Украинская:</option>
+											<option value="2">Украинская</option>
+											<option value="3">Украинская</option>
+											<option value="4">Украинская</option>
+										</select>
+									</div>
+									<div class="search-form__item">
+										<label for="subjects" class="label-white">Часовой пояс:</label>
+										<select name="time" id="time" data-class-modif="custom-select">
+											<option value="1" selected>UTC+02:00 Europe/Kiev</option>
+											<option value="2">UTC+02:00 Europe/Kiev</option>
+											<option value="3">UTC+02:00 Europe/Kiev</option>
+											<option value="4">UTC+02:00 Europe/Kiev</option>
+										</select>
+									</div>
+									<a href="#" class="label-dark-green label-dark-green_s16 label-underline hhv-blue">Настройки профиля</a>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<picture><source srcset="img/footer/bg-1.webp" type="image/webp"><img class="footer__bg footer__bg_left" src="img/footer/bg-1.png" alt=""></picture>
+			<picture><source srcset="img/footer/bg-2.webp" type="image/webp"><img class="footer__bg footer__bg_right" src="img/footer/bg-2.png" alt=""></picture>
+			<div class="footer__container">
+				<div class="footer__col">
+					<h2 class="title title_green title_sm">Контакты</h2>
+					<div class="footer__lists">
+						<div class="footer__sociable">
+							<ul class="footer__sociable-list">
+								<li class="sociable-item">
+									<div class="sociable-item__icon">
+										<img class="img-fluid" src="img/icons/tg.svg" alt="@TGnative">
+									</div>
+									<div class="sociable-item__content">
+										<a href="https://t.me/@TGnative" target="_blank" class="sociable-item__link hhv-green">@TGnative</a>
+										<div class="sociable-item__text">Мы в телеграме</div>
+									</div>
+								</li>
+								<li class="sociable-item">
+									<div class="sociable-item__icon">
+										<img class="img-fluid" src="img/icons/mail.svg" alt="support@telegraph.ua">
+									</div>
+									<div class="sociable-item__content">
+										<a href="mailto:support@telegraph.ua" target="_blank" class="sociable-item__link hhv-green">support@telegraph.ua</a>
+										<div class="sociable-item__text">Почта технической поддержки</div>
+									</div>
+								</li>
+								<li class="sociable-item">
+									<div class="sociable-item__icon">
+										<img class="img-fluid" src="img/icons/instagram.svg" alt="@TGnative">
+									</div>
+									<div class="sociable-item__content">
+										<a href=" https://www.instagram.com/smm-novastar/telegraph_ua" target="_blank" class="sociable-item__link hhv-green">telegraph_ua</a>
+										<div class="sociable-item__text">Наш аккаунт в инстаграме</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__navs">
+							<nav class="footer__nav">
+								<a href="about.html" class="footer__link hhv-blue">О нас</a>
+								<a href="faq.html" class="footer__link hhv-blue">FAQ</a>
+								<a href="catalog.html" class="footer__link hhv-blue">Каталог ТГ каналов</a>
+							</nav>
+							<nav data-da=".footer__pay,480.98" class="footer__nav footer__nav_gap-sm">
+								<a href="https://collaborator.pro/ua/cookies-policy" class="footer__link footer__link_underline">Политика использования файлов cookie</a>
+								<a href="https://collaborator.pro/ua/privacy-policy" class="footer__link footer__link_underline">Политика конфиденциальности</a>
+							</nav>
+						</div>
+					</div>
+					<div class="footer__pay">
+						<picture><source srcset="img/footer/visa.webp" type="image/webp"><img class="footer__sociable-pay-img" src="img/footer/visa.png" alt=""></picture>
+						<picture><source srcset="img/footer/mc.webp" type="image/webp"><img class="footer__sociable-pay-img" src="img/footer/mc.png" alt=""></picture>
+					</div>
+				</div>
+				<div class="footer__col">
+					<div class="footer__col-img">
+						<picture><source srcset="img/footer/apps.webp" type="image/webp"><img class="img-fluid" src="img/footer/apps.png" alt="Контакты"></picture>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div id="popup-chat" aria-hidden="true" class="popup popup-chat">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">
+					<img class="img-fluid" src="img/cart/exit.svg" alt="">
+				</button>
+				<div class="popup-chat__head">
+					<div class="popup-chat__avatar">
+						<picture><source srcset="img/channel/avatar-not-found.webp" type="image/webp"><img class="img-fluid" src="img/channel/avatar-not-found.png" alt="Леонид Овчинников"></picture>
+					</div>
+					<div class="popup-chat__content">
+						<div class="label-black label-black_s24">Леонид Овчинников</div>
+						<div class="label-dark-blue label-dark-blue_s20 label-dark-blue_fw400">Заходил(а) в 13:32</div>
+					</div>
+				</div>
+				<div class="popup-chat__body">
+
+				</div>
+				<form action="#" method="post" class="popup-chat__form form">
+					<input class="popup-chat__input" placeholder="Написать" name="message" type="text">
+					<div class="popup-chat__form-actions">
+						<button class="textarea-btn" type="button">
+							<img src="img/cart/5.svg" class="dont-fill" alt="">
+							<img src="img/cart/5-fill.svg" class="fill" alt="">
+						</button>
+						<button class="textarea-btn" type="button">
+							<img src="img/cart/4.svg" class="dont-fill" alt="">
+							<img src="img/cart/4-fill.svg" class="fill" alt="">
+						</button>
+						<button class="textarea-btn textarea-btn_send" type="submit">
+							<img src="img/cart/send.svg" alt="">
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div id="popup-comment" aria-hidden="true" class="popup popup-chat popup-comment">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">
+					<img class="img-fluid" src="img/cart/exit.svg" alt="">
+				</button>
+				<div class="popup-chat__head popup-chat__head_border-none">
+					<div class="popup-chat__avatar">
+						<picture><source srcset="img/channel/avatar-not-found.webp" type="image/webp"><img class="img-fluid" src="img/channel/avatar-not-found.png" alt="Леонид Овчинников"></picture>
+					</div>
+					<div class="popup-chat__content">
+						<div class="label-black label-black_s24">Леонид Овчинников</div>
+						<div class="label-dark-blue label-dark-blue_s20 label-dark-blue_fw400">Заходил(а) в 13:32</div>
+					</div>
+				</div>
+				<div class="popup-comment__body">
+					<p class="text text_black">
+						По возможности выставить в 18 : 00. По желанию можно немножко подправить текст под свою аудиторию
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.js?_v=20240118214023"></script>
+	<script src="js/app.min.js?_v=20240118214023"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/intlTelInput.min.js?_v=20240118214023"></script>
+
+	<script>
+		const inputinputPhone1 = document.querySelector("#phone");
+		window.intlTelInput(inputinputPhone1, {
+			initialCountry: "ua",
+			separateDialCode: true,
+			utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/utils.js",
+		});
+	</script>
+</body>
+
+</html>

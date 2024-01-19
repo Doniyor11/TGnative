@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Каталог Telegram-каналов</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap&_v=20240118214023" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240118214023">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/css/intlTelInput.css?_v=20240118214023">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__column">
+					<a href="home.html" class="header__logo">
+						<picture><source srcset="img/logo.webp" type="image/webp"><img class="img-fluid" src="img/logo.png" alt=""></picture>
+					</a>
+					<div data-dropdown class="header__dropdown  dropdown-lang dropdown-header">
+						<button data-dropdown-btn class="dropdown-header__btn" type="button">
+							<span>Ua</span>
+							<img src="img/icons/triangle.svg" class="arrow" alt="">
+						</button>
+						<div class="dropdown-lang__list">
+							<a href="#" class="dropdown-lang__item hhv-green">Eng</a>
+							<a href="#" class="dropdown-lang__item hhv-green">Ru</a>
+						</div>
+					</div>
+				</div>
+				<div class="header__column">
+					<div class="header__menu">
+						<a href="about.html" class="header__link hhv-green ">О платформе</a>
+						<a href="catalog.html" class="header__link hhv-green ">Каталог каналов</a>
+					</div>
+					<div class="header__btns">
+						<a href="register.html" class="header__btn button button_no-bg button_sm">Регистрация</a>
+						<a href="sing-in.html" class="button button_sm">
+							Войти
+							<img src="img/icons/login.svg" alt="">
+						</a>
+					</div>
+					<div data-dropdown class="header__dropdown dropdown-header">
+						<button data-dropdown-btn class="dropdown-header__btn icon-menu" type="button">
+							<span></span>
+						</button>
+						<div class="dropdown-header__list dropdown-header__list_main">
+							<div class="dropdown-header__item">
+								<span>
+									<a href="sing-in.html" data-da=".dropdown-header__item span,767.98" type="button">
+										Войти
+										<img src="img/icons/login-blue.svg" alt="">
+									</a>
+								</span>
+								<img src="img/icons/arrow-right.svg" class="arrow" alt="">
+							</div>
+							<a href="register.html" class="dropdown-header__item">
+								<span>Регистрация</span>
+								<img src="img/icons/arrow-right.svg" class="arrow" alt="">
+							</a>
+							<a href="about.html" class="dropdown-header__item dropdown-header__item_active">
+								<span>
+									О платформе
+								</span>
+							</a>
+							<a href="catalog.html" class="dropdown-header__item">
+								<span>
+									Каталог каналов
+								</span>
+							</a>
+							<a href="tracking-posts.html" class="dropdown-header__item">
+								<span>
+									Отслеживание постов
+								</span>
+							</a>
+							<a href="my-channels.html" class="dropdown-header__item">
+								<span>
+									Мои каналы
+								</span>
+							</a>
+							<a href="faq.html" class="dropdown-header__item">
+								<span>
+									FAQ
+								</span>
+							</a>
+							<a href="home.html" class="dropdown-header__item">
+								<span>
+									Вернуться на главную
+								</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="catalog-mainscreen">
+				<div class="catalog-mainscreen__container container">
+					<h1 class="title title_center">Каталог Telegram - каналов</h1>
+					<div data-spollers class="spollers">
+						<div class="spollers__item">
+							<button type="button" data-spoller class="spollers__title">
+								<span class="label-white label-white_s24">
+									Фильтр
+								</span>
+								<span class="label-white label-white_s20">
+									Свернуть
+									<img class="arrow" src="img/icons/arrow-down.svg" alt="">
+								</span>
+							</button>
+							<div class="spollers__body">
+								<form action="#" method="post" class="catalog-mainscreen__form">
+									<div class="catalog-mainscreen__cat">
+										<div class="label-white">Категории</div>
+										<div class="catalog-mainscreen__cat-lists">
+											<ul class="catalog-mainscreen__cat-list">
+												<li class="catalog-mainscreen__cat-item">
+													<button class="catalog-mainscreen__cat-btn _active" type="button">Блоги</button>
+												</li>
+												<li class="catalog-mainscreen__cat-item">
+													<button class="catalog-mainscreen__cat-btn" type="button">Новости и СМИ</button>
+												</li>
+												<li class="catalog-mainscreen__cat-item">
+													<button class="catalog-mainscreen__cat-btn" type="button">Юмор и развлечения</button>
+												</li>
+												<li class="catalog-mainscreen__cat-item">
+													<button class="catalog-mainscreen__cat-btn" type="button">Технология</button>
+												</li>
+												<li class="catalog-mainscreen__cat-item">
+													<button class="catalog-mainscreen__cat-btn" type="button">Экономика</button>
+												</li>
+												<li class="catalog-mainscreen__cat-item">
+													<button class="catalog-mainscreen__cat-btn" type="button">Бизнес и стартапы</button>
+												</li>
+												<li class="catalog-mainscreen__cat-item">
+													<button class="catalog-mainscreen__cat-btn" type="button">Криптовалюты</button>
+												</li>
+												<li class="catalog-mainscreen__cat-item">
+													<button class="catalog-mainscreen__cat-btn" type="button">Путешествия</button>
+												</li>
+											</ul>
+											<ul class="catalog-mainscreen__cat-list">
+												<li class="catalog-mainscreen__cat-item">
+													<button class="catalog-mainscreen__cat-btn" type="button">Блоги</button>
+												</li>
+												<li class="catalog-mainscreen__cat-item">
+													<button class="catalog-mainscreen__cat-btn" type="button">Новости и СМИ</button>
+												</li>
+												<li class="catalog-mainscreen__cat-item">
+													<button class="catalog-mainscreen__cat-btn" type="button">Юмор и развлечения</button>
+												</li>
+												<li class="catalog-mainscreen__cat-item">
+													<button class="catalog-mainscreen__cat-btn" type="button">Технология</button>
+												</li>
+												<li class="catalog-mainscreen__cat-item">
+													<button class="catalog-mainscreen__cat-btn" type="button">Экономика</button>
+												</li>
+												<li class="catalog-mainscreen__cat-item">
+													<button class="catalog-mainscreen__cat-btn" type="button">Бизнес и стартапы</button>
+												</li>
+												<li class="catalog-mainscreen__cat-item">
+													<button class="catalog-mainscreen__cat-btn" type="button">Криптовалюты</button>
+												</li>
+												<li class="catalog-mainscreen__cat-item">
+													<button class="catalog-mainscreen__cat-btn" type="button">Путешествия</button>
+												</li>
+											</ul>
+											<ul class="catalog-mainscreen__cat-list">
+												<li class="catalog-mainscreen__cat-item">
+													<button class="catalog-mainscreen__cat-btn" type="button">Блоги</button>
+												</li>
+												<li class="catalog-mainscreen__cat-item">
+													<button class="catalog-mainscreen__cat-btn" type="button">Новости и СМИ</button>
+												</li>
+												<li class="catalog-mainscreen__cat-item">
+													<button class="catalog-mainscreen__cat-btn" type="button">Юмор и развлечения</button>
+												</li>
+												<li class="catalog-mainscreen__cat-item">
+													<button class="catalog-mainscreen__cat-btn" type="button">Технология</button>
+												</li>
+												<li class="catalog-mainscreen__cat-item">
+													<button class="catalog-mainscreen__cat-btn" type="button">Экономика</button>
+												</li>
+												<li class="catalog-mainscreen__cat-item">
+													<button class="catalog-mainscreen__cat-btn" type="button">Бизнес и стартапы</button>
+												</li>
+												<li class="catalog-mainscreen__cat-item">
+													<button class="catalog-mainscreen__cat-btn" type="button">Криптовалюты</button>
+												</li>
+												<li class="catalog-mainscreen__cat-item">
+													<button class="catalog-mainscreen__cat-btn" type="button">Путешествия</button>
+												</li>
+											</ul>
+											<ul class="catalog-mainscreen__cat-list">
+												<li class="catalog-mainscreen__cat-item">
+													<button class="catalog-mainscreen__cat-btn" type="button">Блоги</button>
+												</li>
+												<li class="catalog-mainscreen__cat-item">
+													<button class="catalog-mainscreen__cat-btn" type="button">Новости и СМИ</button>
+												</li>
+												<li class="catalog-mainscreen__cat-item">
+													<button class="catalog-mainscreen__cat-btn" type="button">Юмор и развлечения</button>
+												</li>
+												<li class="catalog-mainscreen__cat-item">
+													<button class="catalog-mainscreen__cat-btn" type="button">Технология</button>
+												</li>
+												<li class="catalog-mainscreen__cat-item">
+													<button class="catalog-mainscreen__cat-btn" type="button">Экономика</button>
+												</li>
+												<li class="catalog-mainscreen__cat-item">
+													<button class="catalog-mainscreen__cat-btn" type="button">Бизнес и стартапы</button>
+												</li>
+												<li class="catalog-mainscreen__cat-item">
+													<button class="catalog-mainscreen__cat-btn" type="button">Криптовалюты</button>
+												</li>
+												<li class="catalog-mainscreen__cat-item">
+													<button class="catalog-mainscreen__cat-btn" type="button">Путешествия</button>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="search-form form">
+										<div class="search-form__column">
+											<div class="search-form__item search-form__item_select">
+												<label for="subjects" class="label-white">Тематика:</label>
+												<select name="subjects" id="subjects" data-class-modif="custom-select">
+													<option value="1" selected>Юмор</option>
+													<option value="2">Новости и СМИ</option>
+													<option value="3">Криптовалюты</option>
+													<option value="4">Путешествия</option>
+												</select>
+											</div>
+											<div class="search-form__item search-form__item_select">
+												<label for="subjects" class="label-white">Тематика:</label>
+												<select name="county" id="county" data-class-modif="custom-select">
+													<option value="1" selected>Страна:</option>
+													<option value="2">Украина</option>
+													<option value="3">Польша</option>
+													<option value="4">Казахстан</option>
+												</select>
+											</div>
+											<div class="search-form__item">
+												<label for="search-link" class="label-white">Ссылка:</label>
+												<input type="text" id="search-link" name="search-link" placeholder="https://telemetr.me/channels/" class="form__input">
+											</div>
+											<div class="search-form__item">
+												<label for="search-name" class="label-white">Название канала:</label>
+												<input type="text" id="search-name" name="search-name" placeholder="взлом маркетинга" class="form__input">
+											</div>
+										</div>
+										<div class="search-form__column">
+											<div class="search-form__item">
+												<label for="price-from" class="label-white">Цена:</label>
+												<div class="search-form__item-content">
+													<label for="price-from" class="label-white">От</label>
+													<input type="number" id="price-from" name="price-from" placeholder="1000" class="form__input">
+													<label for="price-to" class="label-white">До</label>
+													<input type="number" id="price-to" name="price-to" placeholder="1000" class="form__input">
+												</div>
+											</div>
+											<div class="search-form__item">
+												<label for="form-subs-from" class="label-white">Подписчиков:</label>
+												<div class="search-form__item-content">
+													<label for="orm-subs-from" class="label-white">От</label>
+													<input type="number" id="form-subs-from" name="form-subs-from" placeholder="1000" class="form__input">
+													<label for="form-subs-to" class="label-white">До</label>
+													<input type="number" id="form-subs-to" name="form-subs-to" placeholder="1000" class="form__input">
+												</div>
+											</div>
+											<div class="search-form__item">
+												<label for="views-from" class="label-white">Просмотров на пост:</label>
+												<div class="search-form__item-content">
+													<label for="views-from" class="label-white">От</label>
+													<input type="number" id="views-from" name="views-from" placeholder="1000" class="form__input">
+													<label for="views-to" class="label-white">До</label>
+													<input type="number" id="views-to" name="views-to" placeholder="1000" class="form__input">
+												</div>
+											</div>
+											<div class="search-form__item">
+												<label for="engagement-from" class="label-white">Вовлеченность:</label>
+												<div class="search-form__item-content">
+													<label for="engagement-from" class="label-white">От</label>
+													<input type="number" id="engagement-from" name="engagement-from" placeholder="1000" class="form__input">
+													<label for="engagement-to" class="label-white">До</label>
+													<input type="number" id="engagement-to" name="engagement-to" placeholder="1000" class="form__input">
+												</div>
+											</div>
+										</div>
+										<div class="search-form__column">
+											<div data-spollers class="spollers">
+												<div class="spollers__item">
+													<button type="button" data-spoller class="spollers__title">
+														<span class="label-white label-white_s20">
+															Дополнительные поля
+															<img class="arrow" src="img/icons/arrow-down.svg" alt="">
+														</span>
+													</button>
+													<div class="spollers__body">
+														<div class="search-form__sub-body search-form__column">
+															<div class="search-form__item search-form__item_select">
+																<div class="search-form__item-content">
+																	<div class="search-form__item search-form__item_select">
+																		<label for="channel-type" class="label-white">Тип канала:</label>
+																		<select name="channel-type" id="channel-type" data-class-modif="custom-select">
+																			<option value="1" selected>Не важно</option>
+																			<option value="2">Не важно 1</option>
+																			<option value="3">Не важно 2</option>
+																			<option value="4">Не важно 3</option>
+																		</select>
+																	</div>
+																	<div class="search-form__item search-form__item_range search-form__item_select">
+																		<label for="channel-type" class="label-white">Соотношение полов, %</label>
+																		<input type="range" value="50" min="0" max="100" step="1" class="progress">
+																		<div class="progress__row">
+																			<div id="man" class="progress__item">
+																				М <span class="label-dark-green">50</span>
+																			</div>
+																			<div id="woman" class="progress__item">
+																				Ж <span class="label-dark-green">50</span>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="search-form__item search-form__item_select">
+																<div class="search-form__item-content">
+																	<div class="search-form__item">
+																		<label for="verification" class="label-white">Формат размещения:</label>
+																		<select name="verification" id="verification" data-class-modif="custom-select">
+																			<option value="1" selected>Нативный</option>
+																			<option value="2">Нативный 1</option>
+																			<option value="3">Нативный 2</option>
+																			<option value="4">Нативный 3</option>
+																		</select>
+																	</div>
+																	<div class="search-form__item">
+																		<label for="verification" class="label-white">Верификация:</label>
+																		<select name="verification" id="verification" data-class-modif="custom-select">
+																			<option value="1" selected>Не важно</option>
+																			<option value="2">Не важно 1</option>
+																			<option value="3">Не важно 2</option>
+																			<option value="4">Не важно 3</option>
+																		</select>
+																	</div>
+																</div>
+															</div>
+															<div class="search-form__item">
+																<label for="search-desc" class="label-white">Описание:</label>
+																<input type="text" id="search-desc" name="search-desc" placeholder="маркетинг" class="form__input">
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="catalog-mainscreen__bottom">
+										<button class="button button_no-bg button_sm" type="submit">Найти каналы</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="search-channels">
+				<div class="search-channels__container">
+					<div class="search-channels__head">
+						<div class="search-channels__tabs-head">
+							<div class="search-channels__nums tabs-navigation">
+								<button class="search-channels__num tabs-navigation__title _tab-active" type="button">1</button>
+								<button class="search-channels__num tabs-navigation__title" type="button">2</button>
+								<button class="search-channels__num tabs-navigation__title" type="button">3</button>
+								<button class="search-channels__num tabs-navigation__title" type="button">...</button>
+								<button class="search-channels__num tabs-navigation__title" type="button">1956</button>
+							</div>
+							<div class="search-channels__head-text">
+								Найдено <span>121,456</span> каналов
+							</div>
+						</div>
+					</div>
+					<div class="table-wrap">
+						<table class="table table_w">
+							<thead>
+								<tr>
+									<th scope="col">
+										<div class="label-white label-white_s16">Название</div>
+									</th>
+									<th scope="col">
+										<div class="label-white label-white_s16">Тематика</div>
+									</th>
+									<th>
+										<div class="label-white label-white_s16">Подписчики</div>
+									</th>
+									<th>
+										<div class="d-flex">
+											<img src="img/icons/eye.svg" alt="">
+											<div class="label-white label-white_s16">Просмотры</div>
+										</div>
+									</th>
+									<th>
+										ER
+									</th>
+									<th>
+										Формат
+									</th>
+									<th>
+
+									</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="table-row" scope="row">
+										<div class="table-row__head">
+											<a href="#" target="_blank" class="table-row__img">
+												<picture><source srcset="img/catalog/1.webp" type="image/webp"><img class="img-fluid" src="img/catalog/1.png" alt=""></picture>
+											</a>
+											<div class="table-row__content">
+												<div class="table-row__content">
+													<a href="#" target="_blank" class="label-dark-blue label-dark-blue_s20 hhv-green">Лидер мнений среди удобрений</a>
+													<div class="table-row__btns">
+														<button id="like" class="table-row__btn" type="button">
+															<img class="not-fill img-fluid" src="img/catalog/like.svg" alt="">
+															<img class="fill img-fluid" src="img/catalog/like-fill.svg" alt="">
+														</button>
+														<button id="add" class="table-row__btn" type="button">
+															<img class="not-fill img-fluid" src="img/catalog/add.svg" alt="">
+															<img class="fill img-fluid" src="img/catalog/add-fill.svg" alt="">
+														</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</td>
+									<td class="table-row">
+										<div class="label-dark label-dark_s20">Маркетинг и PR</div>
+									</td>
+									<td class="table-row">
+										<div class="label-dark-green label-dark-green_s24">143 808</div>
+									</td>
+									<td class="table-row">
+										<div class="label-dark label-dark_s20">48.3K</div>
+									</td>
+									<td class="table-row">
+										<div class="label-dark label-dark_s20">33.55%</div>
+									</td>
+									<td class="table-row">
+										<div class="label-dark label-dark_s20">1/24</div>
+									</td>
+									<td class="table-row">
+										<a href="#" target="_blank" class="label-dark-green hhv-blue label-underline label-dark-green_s24" type="button">Подробнее</a>
+									</td>
+								</tr>
+								<tr>
+									<td class="table-row" scope="row">
+										<div class="table-row__head">
+											<a href="#" target="_blank" class="table-row__img">
+												<picture><source srcset="img/catalog/2.webp" type="image/webp"><img class="img-fluid" src="img/catalog/2.png" alt=""></picture>
+											</a>
+											<div class="table-row__content">
+												<div class="table-row__content">
+													<a href="#" target="_blank" class="label-dark-blue label-dark-blue_s20 hhv-green">INSTASAMKA</a>
+													<div class="table-row__btns">
+														<button id="like" class="table-row__btn" type="button">
+															<img class="not-fill img-fluid" src="img/catalog/like.svg" alt="">
+															<img class="fill img-fluid" src="img/catalog/like-fill.svg" alt="">
+														</button>
+														<button id="add" class="table-row__btn" type="button">
+															<img class="not-fill img-fluid" src="img/catalog/add.svg" alt="">
+															<img class="fill img-fluid" src="img/catalog/add-fill.svg" alt="">
+														</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</td>
+									<td class="table-row">
+										<div class="label-dark label-dark_s20">Маркетинг и PR</div>
+									</td>
+									<td class="table-row">
+										<div class="label-dark-green label-dark-green_s24">143 808</div>
+									</td>
+									<td class="table-row">
+										<div class="label-dark label-dark_s20">48.3K</div>
+									</td>
+									<td class="table-row">
+										<div class="label-dark label-dark_s20">33.55%</div>
+									</td>
+									<td class="table-row">
+										<div class="label-dark label-dark_s20">1/24</div>
+									</td>
+									<td class="table-row">
+										<a href="#" target="_blank" class="label-dark-green hhv-blue label-underline label-dark-green_s24" type="button">Подробнее</a>
+									</td>
+								</tr>
+								<tr>
+									<td class="table-row" scope="row">
+										<div class="table-row__head">
+											<a href="#" target="_blank" class="table-row__img">
+												<picture><source srcset="img/catalog/3.webp" type="image/webp"><img class="img-fluid" src="img/catalog/3.png" alt=""></picture>
+											</a>
+											<div class="table-row__content">
+												<div class="table-row__content">
+													<a href="#" target="_blank" class="label-dark-blue label-dark-blue_s20 hhv-green">Лидер мнений среди удобрений</a>
+													<div class="table-row__btns">
+														<button id="like" class="table-row__btn" type="button">
+															<img class="not-fill img-fluid" src="img/catalog/like.svg" alt="">
+															<img class="fill img-fluid" src="img/catalog/like-fill.svg" alt="">
+														</button>
+														<button id="add" class="table-row__btn" type="button">
+															<img class="not-fill img-fluid" src="img/catalog/add.svg" alt="">
+															<img class="fill img-fluid" src="img/catalog/add-fill.svg" alt="">
+														</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</td>
+									<td class="table-row">
+										<div class="label-dark label-dark_s20">Маркетинг и PR</div>
+									</td>
+									<td class="table-row">
+										<div class="label-dark-green label-dark-green_s24">143 808</div>
+									</td>
+									<td class="table-row">
+										<div class="label-dark label-dark_s20">48.3K</div>
+									</td>
+									<td class="table-row">
+										<div class="label-dark label-dark_s20">33.55%</div>
+									</td>
+									<td class="table-row">
+										<div class="label-dark label-dark_s20">1/24</div>
+									</td>
+									<td class="table-row">
+										<a href="#" target="_blank" class="label-dark-green hhv-blue label-underline label-dark-green_s24" type="button">Подробнее</a>
+									</td>
+								</tr>
+								<tr>
+									<td class="table-row" scope="row">
+										<div class="table-row__head">
+											<a href="#" target="_blank" class="table-row__img">
+												<picture><source srcset="img/catalog/4.webp" type="image/webp"><img class="img-fluid" src="img/catalog/4.png" alt=""></picture>
+											</a>
+											<div class="table-row__content">
+												<div class="table-row__content">
+													<a href="#" target="_blank" class="label-dark-blue label-dark-blue_s20 hhv-green">INSTASAMKA</a>
+													<div class="table-row__btns">
+														<button id="like" class="table-row__btn" type="button">
+															<img class="not-fill img-fluid" src="img/catalog/like.svg" alt="">
+															<img class="fill img-fluid" src="img/catalog/like-fill.svg" alt="">
+														</button>
+														<button id="add" class="table-row__btn" type="button">
+															<img class="not-fill img-fluid" src="img/catalog/add.svg" alt="">
+															<img class="fill img-fluid" src="img/catalog/add-fill.svg" alt="">
+														</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</td>
+									<td class="table-row">
+										<div class="label-dark label-dark_s20">Маркетинг и PR</div>
+									</td>
+									<td class="table-row">
+										<div class="label-dark-green label-dark-green_s24">143 808</div>
+									</td>
+									<td class="table-row">
+										<div class="label-dark label-dark_s20">48.3K</div>
+									</td>
+									<td class="table-row">
+										<div class="label-dark label-dark_s20">33.55%</div>
+									</td>
+									<td class="table-row">
+										<div class="label-dark label-dark_s20">1/24</div>
+									</td>
+									<td class="table-row">
+										<a href="#" target="_blank" class="label-dark-green hhv-blue label-underline label-dark-green_s24" type="button">Подробнее</a>
+									</td>
+								</tr>
+								<tr>
+									<td class="table-row" scope="row">
+										<div class="table-row__head">
+											<a href="#" target="_blank" class="table-row__img">
+												<picture><source srcset="img/catalog/1.webp" type="image/webp"><img class="img-fluid" src="img/catalog/1.png" alt=""></picture>
+											</a>
+											<div class="table-row__content">
+												<div class="table-row__content">
+													<a href="#" target="_blank" class="label-dark-blue label-dark-blue_s20 hhv-green">Лидер мнений среди удобрений</a>
+													<div class="table-row__btns">
+														<button id="like" class="table-row__btn" type="button">
+															<img class="not-fill img-fluid" src="img/catalog/like.svg" alt="">
+															<img class="fill img-fluid" src="img/catalog/like-fill.svg" alt="">
+														</button>
+														<button id="add" class="table-row__btn" type="button">
+															<img class="not-fill img-fluid" src="img/catalog/add.svg" alt="">
+															<img class="fill img-fluid" src="img/catalog/add-fill.svg" alt="">
+														</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</td>
+									<td class="table-row">
+										<div class="label-dark label-dark_s20">Маркетинг и PR</div>
+									</td>
+									<td class="table-row">
+										<div class="label-dark-green label-dark-green_s24">143 808</div>
+									</td>
+									<td class="table-row">
+										<div class="label-dark label-dark_s20">48.3K</div>
+									</td>
+									<td class="table-row">
+										<div class="label-dark label-dark_s20">33.55%</div>
+									</td>
+									<td class="table-row">
+										<div class="label-dark label-dark_s20">1/24</div>
+									</td>
+									<td class="table-row">
+										<a href="#" target="_blank" class="label-dark-green hhv-blue label-underline label-dark-green_s24" type="button">Подробнее</a>
+									</td>
+								</tr>
+								<tr>
+									<td class="table-row" scope="row">
+										<div class="table-row__head">
+											<a href="#" target="_blank" class="table-row__img">
+												<picture><source srcset="img/catalog/2.webp" type="image/webp"><img class="img-fluid" src="img/catalog/2.png" alt=""></picture>
+											</a>
+											<div class="table-row__content">
+												<div class="table-row__content">
+													<a href="#" target="_blank" class="label-dark-blue label-dark-blue_s20 hhv-green">INSTASAMKA</a>
+													<div class="table-row__btns">
+														<button id="like" class="table-row__btn" type="button">
+															<img class="not-fill img-fluid" src="img/catalog/like.svg" alt="">
+															<img class="fill img-fluid" src="img/catalog/like-fill.svg" alt="">
+														</button>
+														<button id="add" class="table-row__btn" type="button">
+															<img class="not-fill img-fluid" src="img/catalog/add.svg" alt="">
+															<img class="fill img-fluid" src="img/catalog/add-fill.svg" alt="">
+														</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</td>
+									<td class="table-row">
+										<div class="label-dark label-dark_s20">Маркетинг и PR</div>
+									</td>
+									<td class="table-row">
+										<div class="label-dark-green label-dark-green_s24">143 808</div>
+									</td>
+									<td class="table-row">
+										<div class="label-dark label-dark_s20">48.3K</div>
+									</td>
+									<td class="table-row">
+										<div class="label-dark label-dark_s20">33.55%</div>
+									</td>
+									<td class="table-row">
+										<div class="label-dark label-dark_s20">1/24</div>
+									</td>
+									<td class="table-row">
+										<a href="#" target="_blank" class="label-dark-green hhv-blue label-underline label-dark-green_s24" type="button">Подробнее</a>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
+					<div class="search-channels__bottom">
+						<div class="search-channels__nums tabs-navigation">
+							<button class="search-channels__num tabs-navigation__title _tab-active" type="button">1</button>
+							<button class="search-channels__num tabs-navigation__title" type="button">2</button>
+							<button class="search-channels__num tabs-navigation__title" type="button">3</button>
+							<button class="search-channels__num tabs-navigation__title" type="button">...</button>
+							<button class="search-channels__num tabs-navigation__title" type="button">1956</button>
+						</div>
+						<div class="search-channels__arrows">
+							<button class="search-channels__arrow search-channels__arrow_left" type="button">
+								<img class="img-fluid" src="img/icons/arrow-left.svg" alt="">
+							</button>
+							<button class="search-channels__arrow search-channels__arrow_right" type="button">
+								<img class="img-fluid" src="img/icons/arrow-left.svg" alt="">
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<picture><source srcset="img/footer/bg-1.webp" type="image/webp"><img class="footer__bg footer__bg_left" src="img/footer/bg-1.png" alt=""></picture>
+			<picture><source srcset="img/footer/bg-2.webp" type="image/webp"><img class="footer__bg footer__bg_right" src="img/footer/bg-2.png" alt=""></picture>
+			<div class="footer__container">
+				<div class="footer__col">
+					<h2 class="title title_green title_sm">Контакты</h2>
+					<div class="footer__lists">
+						<div class="footer__sociable">
+							<ul class="footer__sociable-list">
+								<li class="sociable-item">
+									<div class="sociable-item__icon">
+										<img class="img-fluid" src="img/icons/tg.svg" alt="@TGnative">
+									</div>
+									<div class="sociable-item__content">
+										<a href="https://t.me/@TGnative" target="_blank" class="sociable-item__link hhv-green">@TGnative</a>
+										<div class="sociable-item__text">Мы в телеграме</div>
+									</div>
+								</li>
+								<li class="sociable-item">
+									<div class="sociable-item__icon">
+										<img class="img-fluid" src="img/icons/mail.svg" alt="support@telegraph.ua">
+									</div>
+									<div class="sociable-item__content">
+										<a href="mailto:support@telegraph.ua" target="_blank" class="sociable-item__link hhv-green">support@telegraph.ua</a>
+										<div class="sociable-item__text">Почта технической поддержки</div>
+									</div>
+								</li>
+								<li class="sociable-item">
+									<div class="sociable-item__icon">
+										<img class="img-fluid" src="img/icons/instagram.svg" alt="@TGnative">
+									</div>
+									<div class="sociable-item__content">
+										<a href=" https://www.instagram.com/smm-novastar/telegraph_ua" target="_blank" class="sociable-item__link hhv-green">telegraph_ua</a>
+										<div class="sociable-item__text">Наш аккаунт в инстаграме</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__navs">
+							<nav class="footer__nav">
+								<a href="about.html" class="footer__link hhv-blue">О нас</a>
+								<a href="faq.html" class="footer__link hhv-blue">FAQ</a>
+								<a href="catalog.html" class="footer__link hhv-blue">Каталог ТГ каналов</a>
+							</nav>
+							<nav data-da=".footer__pay,480.98" class="footer__nav footer__nav_gap-sm">
+								<a href="https://collaborator.pro/ua/cookies-policy" class="footer__link footer__link_underline">Политика использования файлов cookie</a>
+								<a href="https://collaborator.pro/ua/privacy-policy" class="footer__link footer__link_underline">Политика конфиденциальности</a>
+							</nav>
+						</div>
+					</div>
+					<div class="footer__pay">
+						<picture><source srcset="img/footer/visa.webp" type="image/webp"><img class="footer__sociable-pay-img" src="img/footer/visa.png" alt=""></picture>
+						<picture><source srcset="img/footer/mc.webp" type="image/webp"><img class="footer__sociable-pay-img" src="img/footer/mc.png" alt=""></picture>
+					</div>
+				</div>
+				<div class="footer__col">
+					<div class="footer__col-img">
+						<picture><source srcset="img/footer/apps.webp" type="image/webp"><img class="img-fluid" src="img/footer/apps.png" alt="Контакты"></picture>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.js?_v=20240118214023"></script>
+	<script src="js/app.min.js?_v=20240118214023"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/intlTelInput.min.js?_v=20240118214023"></script>
+
+	<script>
+		const inputinputPhone1 = document.querySelector("#phone");
+		window.intlTelInput(inputinputPhone1, {
+			initialCountry: "ua",
+			separateDialCode: true,
+			utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/utils.js",
+		});
+	</script>
+</body>
+
+</html>

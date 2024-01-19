@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Стр канала</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap&_v=20240118214023" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240118214023">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/css/intlTelInput.css?_v=20240118214023">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header header_account">
+			<div class="header__container">
+				<div class="header__column">
+					<a href="home.html" class="header__logo">
+						<picture><source srcset="img/logo.webp" type="image/webp"><img class="img-fluid" src="img/logo.png" alt=""></picture>
+					</a>
+					<div data-dropdown class="header__dropdown  dropdown-lang dropdown-header">
+						<button data-dropdown-btn class="dropdown-header__btn" type="button">
+							<span>Ua</span>
+							<img src="img/icons/triangle.svg" class="arrow" alt="">
+						</button>
+						<div class="dropdown-lang__list">
+							<a href="#" class="dropdown-lang__item hhv-green">Eng</a>
+							<a href="#" class="dropdown-lang__item hhv-green">Ru</a>
+						</div>
+					</div>
+				</div>
+				<div class="header__column">
+					<div class="header__menu">
+						<a href="about.html" class="header__link hhv-green ">О платформе</a>
+						<a href="catalog.html" class="header__link hhv-green ">Каталог каналов</a>
+						<a href="faq.html" class="header__link hhv-green ">FAQ</a>
+					</div>
+					<div data-dropdown class="header__dropdown dropdown-header dropdown-header_sm">
+						<button data-dropdown-btn class="dropdown-header__btn" type="button">
+							<span>Баланс</span>
+							<img src="img/icons/triangle.svg" class="arrow" alt="">
+						</button>
+						<div class="dropdown-header__list dropdown-header__list_sm">
+							<a href="#" class="button">Пополнить баланс</a>
+							<a href="#" class="dropdown-header__link hhv-green">Вывести деньги</a>
+							<a href="#" class="dropdown-header__link hhv-green">История платежа</a>
+							<div class="dropdown-header__row">
+								<div class="dropdown-header__text">Заморожено</div>
+								<div class="dropdown-header__price">0.00 UAH</div>
+							</div>
+						</div>
+					</div>
+					<a href="cart.html" class="header__cart">
+						<img class="img-fluid" src="img/icons/cart.svg" alt="">
+						<span>0</span>
+					</a>
+					<a href="#" class="header__avatar">
+						<picture><source srcset="img/channel/avatar-not-found.webp" type="image/webp"><img class="img-fluid" src="img/channel/avatar-not-found.png" alt=""></picture>
+					</a>
+					<div data-dropdown class="header__dropdown dropdown-header">
+						<button data-dropdown-btn class="dropdown-header__btn icon-menu" type="button">
+							<span></span>
+						</button>
+						<div class="dropdown-header__list dropdown-header__list_main">
+							<a href="about.html" class="dropdown-header__item dropdown-header__item_active">
+								<span>
+									О платформе
+								</span>
+							</a>
+							<a href="catalog.html" class="dropdown-header__item">
+								<span>
+									Каталог каналов
+								</span>
+							</a>
+							<a href="tracking-posts.html" class="dropdown-header__item">
+								<span>
+									Отслеживание постов
+								</span>
+							</a>
+							<a href="my-channels.html" class="dropdown-header__item">
+								<span>
+									Мои каналы
+								</span>
+							</a>
+							<a href="faq.html" class="dropdown-header__item">
+								<span>
+									FAQ
+								</span>
+							</a>
+							<a href="home.html" class="dropdown-header__item">
+								<span>
+									Вернуться на главную
+								</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="channel">
+				<div class="channel__container">
+					<div class="channel__col channel__col_1">
+						<div class="channel__item item-channel-main squire">
+							<button id="like" class="icon-heart _active" type="button">
+								<img class="not-fill img-fluid" src="img/catalog/like.svg" alt="">
+								<img class="fill img-fluid" src="img/catalog/like-fill.svg" alt="">
+							</button>
+							<div class="item-channel-main__head">
+								<div class="item-channel-main__img">
+									<picture><source srcset="img/channel/avatar.webp" type="image/webp"><img class="img-fluid" src="img/channel/avatar.png" alt=""></picture>
+								</div>
+								<div class="item-channel-main__content">
+									<h1 class="item-channel-main__title">ДНЕВНИК ВЕРСТАЛЬЩИКА</h1>
+									<a href="https://t.me/the_freelance" class="item-channel-main__link hhv-green">
+										https://t.me/the_freelance
+									</a>
+									<div data-da=".item-channel-main__descr,480.98,first" class="item-channel-main__info">
+										<div class="item-channel-main__info-item">Категория: <span>Интернет технологии</span></div>
+										<div class="item-channel-main__info-item">Язык: <span>Язык</span></div>
+									</div>
+									<div data-da=".item-channel-main__descr,480.98,first" class="item-channel-main__stars">
+										<img src="img/channel/star.svg" alt="">
+										<img src="img/channel/star.svg" alt="">
+										<img src="img/channel/star.svg" alt="">
+										<img src="img/channel/star.svg" alt="">
+									</div>
+								</div>
+							</div>
+							<div class="item-channel-main__descr">
+								<p class="text text_s20 text_dark">
+									Публикую не все, инфоциганщина с курсами по типу скиллбокс, хтмлакадеми и прочее не публикуется. Приветствуются сервисы по типу Хостинга и прочее для верстальщиков, публикация рекламы только после того как я сам лично буду уверен в качестве....
+								</p>
+								<a href="#" class="item-channel-main__descr-link hhv-blue">Подробнее</a>
+							</div>
+						</div>
+						<div data-da=".channel__col_2,992.98,first" class="channel__item item-channel-order squire">
+							<h3 class="item-channel-order__title">Заказать рекламу на этом канале</h3>
+							<form action="#" method="post" class="item-channel-order__form form">
+								<div class="search-form__item item-channel-order__item search-form__item_select">
+									<label for="subjects" class="label-dark label-dark_s16">Формат:</label>
+									<select name="subjects" id="subjects" data-class-modif="custom-select">
+										<option value="1" selected>8/24</option>
+										<option value="2">8/24</option>
+										<option value="3">8/24</option>
+										<option value="4">8/24</option>
+									</select>
+									<p class="item-channel-order__text">8 часов в топе/24 часа в ленте</p>
+								</div>
+								<div class="item-channel-order__item">
+									<div class="label-black label-black_s16">Ближайшее время публикации : </div>
+									<div class="label-black label-black_s16 item-channel-order__nearest">
+										<span>26.05.2023</span>
+										<span>12:30</span>
+									</div>
+								</div>
+								<div class="item-channel-order__item">
+									<label for="date" class="label-underline item-channel-order__item-link hhv-green">Выбрать время</label>
+									<div class="item-channel-order__row">
+
+										<div class="item-channel-order__row-item">
+											<input data-datepicker type="text" class="form__input" name="date" id="date" placeholder="Выбрать дату">
+											<img src="img/channel/calendar.svg" alt="">
+										</div>
+										<div class="item-channel-order__row-item item-channel-order__row-item_select">
+											<select name="channel-type" id="channel-type" data-class-modif="custom-select">
+												<option value="1" selected>Выбрать время</option>
+												<option value="2">Выбрать время</option>
+												<option value="3">Выбрать время</option>
+												<option value="4">Выбрать время</option>
+											</select>
+										</div>
+										<!-- <div class="item-channel-order__row-item">
+                        <input type="text" class="form__input" name="time" id="time" placeholder="Выбрать время">
+                        <img src="img/icons/arrow-down-pink.svg" alt="">
+                      </div> -->
+									</div>
+								</div>
+								<div class="item-channel-order__bottom">
+									<div class="label-dark label-dark_s20">
+										Стоимость: <span class="label-dark_fw700">1200 UAH</span>
+									</div>
+									<div class="item-channel-order__bottom-row">
+										<button class="button" type="submit">Заказать</button>
+										<button class="item-channel-order__icon" type="button">
+											<img src="img/channel/add.svg" alt="">
+										</button>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div data-da=".channel__col_2,992.98" class="channel__item item-channel-reviews">
+							<h3 class="label-blue label-blue_s24 label-blue_fw400">Отзывы</h3>
+							<div data-showmore="items" class="item-channel-reviews__showmore">
+								<ul data-showmore-content="3" class="item-channel-reviews__content">
+									<li data-gap="10" class="item-channel-reviews__item squire">
+										<div class="item-channel-reviews__avatar">
+											<picture><source srcset="img/channel/avatar-not-found.webp" type="image/webp"><img class="img-fluid" src="img/channel/avatar-not-found.png" alt=""></picture>
+										</div>
+										<div class="item-channel-reviews__item-content">
+											<div class="label-dark label-dark_s16">Алена</div>
+											<div class="label-dark-green label-dark-green_s16">
+												Отзыв о
+												<span class="label-dark-green_fw700"> ДНЕВНИК ВЕРСТАЛЬЩИКА</span>
+											</div>
+											<p class="text text_black">
+												Все сделано должным образом, довольна размещением
+											</p>
+										</div>
+										<div class="item-channel-reviews__info">
+											<div class="item-channel-main__stars">
+												<img src="img/channel/star.svg" alt="">
+												<img src="img/channel/star.svg" alt="">
+												<img src="img/channel/star.svg" alt="">
+												<img src="img/channel/star.svg" alt="">
+											</div>
+											<div class="item-channel-reviews__actions">
+												<div class="item-channel-reviews__action">
+													<img src="img/channel/like.svg" alt="">
+													<span>0</span>
+												</div>
+												<div class="item-channel-reviews__action">
+													<img src="img/channel/dislike.svg" alt="">
+													<span>0</span>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li data-gap="10" class="item-channel-reviews__item squire">
+										<div class="item-channel-reviews__avatar">
+											<picture><source srcset="img/channel/avatar-not-found.webp" type="image/webp"><img class="img-fluid" src="img/channel/avatar-not-found.png" alt=""></picture>
+										</div>
+										<div class="item-channel-reviews__item-content">
+											<div class="label-dark label-dark_s16">Алена</div>
+											<div class="label-dark-green label-dark-green_s16">
+												Отзыв о
+												<span class="label-dark-green_fw700"> ДНЕВНИК ВЕРСТАЛЬЩИКА</span>
+											</div>
+											<p class="text text_black">
+												Все сделано должным образом, довольна размещением
+											</p>
+										</div>
+										<div class="item-channel-reviews__info">
+											<div class="item-channel-main__stars">
+												<img src="img/channel/star.svg" alt="">
+												<img src="img/channel/star.svg" alt="">
+												<img src="img/channel/star.svg" alt="">
+												<img src="img/channel/star.svg" alt="">
+											</div>
+											<div class="item-channel-reviews__actions">
+												<div class="item-channel-reviews__action">
+													<img src="img/channel/like.svg" alt="">
+													<span>0</span>
+												</div>
+												<div class="item-channel-reviews__action">
+													<img src="img/channel/dislike.svg" alt="">
+													<span>0</span>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li data-gap="10" class="item-channel-reviews__item squire">
+										<div class="item-channel-reviews__avatar">
+											<picture><source srcset="img/channel/avatar-not-found.webp" type="image/webp"><img class="img-fluid" src="img/channel/avatar-not-found.png" alt=""></picture>
+										</div>
+										<div class="item-channel-reviews__item-content">
+											<div class="label-dark label-dark_s16">Алена</div>
+											<div class="label-dark-green label-dark-green_s16">
+												Отзыв о
+												<span class="label-dark-green_fw700"> ДНЕВНИК ВЕРСТАЛЬЩИКА</span>
+											</div>
+											<p class="text text_black">
+												Все сделано должным образом, довольна размещением
+											</p>
+										</div>
+										<div class="item-channel-reviews__info">
+											<div class="item-channel-main__stars">
+												<img src="img/channel/star.svg" alt="">
+												<img src="img/channel/star.svg" alt="">
+												<img src="img/channel/star.svg" alt="">
+												<img src="img/channel/star.svg" alt="">
+											</div>
+											<div class="item-channel-reviews__actions">
+												<div class="item-channel-reviews__action">
+													<img src="img/channel/like.svg" alt="">
+													<span>0</span>
+												</div>
+												<div class="item-channel-reviews__action">
+													<img src="img/channel/dislike.svg" alt="">
+													<span>0</span>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li data-gap="10" class="item-channel-reviews__item squire">
+										<div class="item-channel-reviews__avatar">
+											<picture><source srcset="img/channel/avatar-not-found.webp" type="image/webp"><img class="img-fluid" src="img/channel/avatar-not-found.png" alt=""></picture>
+										</div>
+										<div class="item-channel-reviews__item-content">
+											<div class="label-dark label-dark_s16">Алена</div>
+											<div class="label-dark-green label-dark-green_s16">
+												Отзыв о
+												<span class="label-dark-green_fw700"> ДНЕВНИК ВЕРСТАЛЬЩИКА</span>
+											</div>
+											<p class="text text_black">
+												Все сделано должным образом, довольна размещением
+											</p>
+										</div>
+										<div class="item-channel-reviews__info">
+											<div class="item-channel-main__stars">
+												<img src="img/channel/star.svg" alt="">
+												<img src="img/channel/star.svg" alt="">
+												<img src="img/channel/star.svg" alt="">
+												<img src="img/channel/star.svg" alt="">
+											</div>
+											<div class="item-channel-reviews__actions">
+												<div class="item-channel-reviews__action">
+													<img src="img/channel/like.svg" alt="">
+													<span>0</span>
+												</div>
+												<div class="item-channel-reviews__action">
+													<img src="img/channel/dislike.svg" alt="">
+													<span>0</span>
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+								<div class="item-channel-reviews__bottom">
+									<button hidden data-showmore-button type="button" class="item-channel-reviews__more label-dark-green label-dark-green_s16 label-underline hhv-blue">
+										<span>Посмотреть все</span><span>Скыть</span>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="channel__col channel__col_2">
+						<div class="channel__item analitics-tabs__item item-subs-analitics squire">
+							<h4 class="label-dark label-dark_s24">Подписчиков</h4>
+							<div class="item-subs-analitics__row-col">
+								<div class="item-subs-analitics__row-col-item">
+									<div class="label-black label-black_s20">Всего</div>
+									<div class="label-blue label-blue_fw400 label-blue_s24">8'575'883</div>
+								</div>
+								<div class="item-subs-analitics__row-col-item">
+									<div class="label-black label-black_s20">Сегодня</div>
+									<div class="label-green label-green_s24">+5'916</div>
+								</div>
+								<div class="item-subs-analitics__row-col-item">
+									<div class="label-black label-black_s20">Неделя </div>
+									<div class="label-green label-green_s24">+35'329</div>
+								</div>
+								<div class="item-subs-analitics__row-col-item">
+									<div class="label-black label-black_s20">Месяц</div>
+									<div class="label-green label-green_s24">+145'095</div>
+								</div>
+							</div>
+							<div class="item-subs-analitics__row-inline">
+								<div class="item-subs-analitics__row-inline-item">
+									<div class="label-dark label-dark_s20">Просмотров на пост</div>
+									<div class="label-blue label-blue_s20 label-blue_fw400">2387956</div>
+								</div>
+								<div class="item-subs-analitics__row-inline-item">
+									<div class="label-dark label-dark_s20">За последние 24ч</div>
+									<div class="label-blue label-blue_s20 label-blue_fw400">34500</div>
+								</div>
+							</div>
+						</div>
+						<div class="channel__item analitics-tabs__item item-subs-analitics squire">
+							<div class="item-subs-analitics__row-inline">
+								<div class="item-subs-analitics__row-inline-item">
+									<div class="label-dark label-dark_s20">ER</div>
+									<div class="label-blue label-blue_s24 label-blue_fw400">0%</div>
+								</div>
+								<div class="item-subs-analitics__row-inline-item">
+									<div class="label-dark label-dark_s20">Суточный</div>
+									<div class="label-blue label-blue_s24 label-blue_fw400">0%</div>
+								</div>
+								<div class="item-subs-analitics__row-inline-item">
+									<div class="label-dark label-dark_s20">Упоминаний в ТГ</div>
+									<div class="label-blue label-blue_s24 label-blue_fw400">177/62</div>
+								</div>
+							</div>
+						</div>
+						<div class="channel__item item-channel-chart">
+							<h3 class="label-white label-white_s20">Статистика просмотров</h3>
+							<div class="item-channel-chart__chart">
+								<canvas id="chart1"></canvas>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<picture><source srcset="img/footer/bg-1.webp" type="image/webp"><img class="footer__bg footer__bg_left" src="img/footer/bg-1.png" alt=""></picture>
+			<picture><source srcset="img/footer/bg-2.webp" type="image/webp"><img class="footer__bg footer__bg_right" src="img/footer/bg-2.png" alt=""></picture>
+			<div class="footer__container">
+				<div class="footer__col">
+					<h2 class="title title_green title_sm">Контакты</h2>
+					<div class="footer__lists">
+						<div class="footer__sociable">
+							<ul class="footer__sociable-list">
+								<li class="sociable-item">
+									<div class="sociable-item__icon">
+										<img class="img-fluid" src="img/icons/tg.svg" alt="@TGnative">
+									</div>
+									<div class="sociable-item__content">
+										<a href="https://t.me/@TGnative" target="_blank" class="sociable-item__link hhv-green">@TGnative</a>
+										<div class="sociable-item__text">Мы в телеграме</div>
+									</div>
+								</li>
+								<li class="sociable-item">
+									<div class="sociable-item__icon">
+										<img class="img-fluid" src="img/icons/mail.svg" alt="support@telegraph.ua">
+									</div>
+									<div class="sociable-item__content">
+										<a href="mailto:support@telegraph.ua" target="_blank" class="sociable-item__link hhv-green">support@telegraph.ua</a>
+										<div class="sociable-item__text">Почта технической поддержки</div>
+									</div>
+								</li>
+								<li class="sociable-item">
+									<div class="sociable-item__icon">
+										<img class="img-fluid" src="img/icons/instagram.svg" alt="@TGnative">
+									</div>
+									<div class="sociable-item__content">
+										<a href=" https://www.instagram.com/smm-novastar/telegraph_ua" target="_blank" class="sociable-item__link hhv-green">telegraph_ua</a>
+										<div class="sociable-item__text">Наш аккаунт в инстаграме</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__navs">
+							<nav class="footer__nav">
+								<a href="about.html" class="footer__link hhv-blue">О нас</a>
+								<a href="faq.html" class="footer__link hhv-blue">FAQ</a>
+								<a href="catalog.html" class="footer__link hhv-blue">Каталог ТГ каналов</a>
+							</nav>
+							<nav data-da=".footer__pay,480.98" class="footer__nav footer__nav_gap-sm">
+								<a href="https://collaborator.pro/ua/cookies-policy" class="footer__link footer__link_underline">Политика использования файлов cookie</a>
+								<a href="https://collaborator.pro/ua/privacy-policy" class="footer__link footer__link_underline">Политика конфиденциальности</a>
+							</nav>
+						</div>
+					</div>
+					<div class="footer__pay">
+						<picture><source srcset="img/footer/visa.webp" type="image/webp"><img class="footer__sociable-pay-img" src="img/footer/visa.png" alt=""></picture>
+						<picture><source srcset="img/footer/mc.webp" type="image/webp"><img class="footer__sociable-pay-img" src="img/footer/mc.png" alt=""></picture>
+					</div>
+				</div>
+				<div class="footer__col">
+					<div class="footer__col-img">
+						<picture><source srcset="img/footer/apps.webp" type="image/webp"><img class="img-fluid" src="img/footer/apps.png" alt="Контакты"></picture>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.js?_v=20240118214023"></script>
+	<script src="js/app.min.js?_v=20240118214023"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/intlTelInput.min.js?_v=20240118214023"></script>
+
+	<script>
+		const inputinputPhone1 = document.querySelector("#phone");
+		window.intlTelInput(inputinputPhone1, {
+			initialCountry: "ua",
+			separateDialCode: true,
+			utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/utils.js",
+		});
+	</script>
+</body>
+
+</html>

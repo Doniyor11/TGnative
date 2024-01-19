@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>TGnative</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap&_v=20240118214023" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240118214023">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/css/intlTelInput.css?_v=20240118214023">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__column">
+					<a href="home.html" class="header__logo">
+						<picture><source srcset="img/logo.webp" type="image/webp"><img class="img-fluid" src="img/logo.png" alt=""></picture>
+					</a>
+					<div data-dropdown class="header__dropdown  dropdown-lang dropdown-header">
+						<button data-dropdown-btn class="dropdown-header__btn" type="button">
+							<span>Ua</span>
+							<img src="img/icons/triangle.svg" class="arrow" alt="">
+						</button>
+						<div class="dropdown-lang__list">
+							<a href="#" class="dropdown-lang__item hhv-green">Eng</a>
+							<a href="#" class="dropdown-lang__item hhv-green">Ru</a>
+						</div>
+					</div>
+				</div>
+				<div class="header__column">
+					<div class="header__menu">
+						<a href="about.html" class="header__link hhv-green ">О платформе</a>
+						<a href="catalog.html" class="header__link hhv-green ">Каталог каналов</a>
+					</div>
+					<div class="header__btns">
+						<a href="register.html" class="header__btn button button_no-bg button_sm">Регистрация</a>
+						<a href="sing-in.html" class="button button_sm">
+							Войти
+							<img src="img/icons/login.svg" alt="">
+						</a>
+					</div>
+					<div data-dropdown class="header__dropdown dropdown-header">
+						<button data-dropdown-btn class="dropdown-header__btn icon-menu" type="button">
+							<span></span>
+						</button>
+						<div class="dropdown-header__list dropdown-header__list_main">
+							<div class="dropdown-header__item">
+								<span>
+									<a href="sing-in.html" data-da=".dropdown-header__item span,767.98" type="button">
+										Войти
+										<img src="img/icons/login-blue.svg" alt="">
+									</a>
+								</span>
+								<img src="img/icons/arrow-right.svg" class="arrow" alt="">
+							</div>
+							<a href="register.html" class="dropdown-header__item">
+								<span>Регистрация</span>
+								<img src="img/icons/arrow-right.svg" class="arrow" alt="">
+							</a>
+							<a href="about.html" class="dropdown-header__item dropdown-header__item_active">
+								<span>
+									О платформе
+								</span>
+							</a>
+							<a href="catalog.html" class="dropdown-header__item">
+								<span>
+									Каталог каналов
+								</span>
+							</a>
+							<a href="tracking-posts.html" class="dropdown-header__item">
+								<span>
+									Отслеживание постов
+								</span>
+							</a>
+							<a href="my-channels.html" class="dropdown-header__item">
+								<span>
+									Мои каналы
+								</span>
+							</a>
+							<a href="faq.html" class="dropdown-header__item">
+								<span>
+									FAQ
+								</span>
+							</a>
+							<a href="home.html" class="dropdown-header__item">
+								<span>
+									Вернуться на главную
+								</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="mainscreen">
+				<div class="mainscreen__container">
+					<div class="mainscreen__content">
+						<h1 class="mainscreen__title">
+							<span>Платформа для размещения нативной рекламы в Телеграм </span> <br>
+							со встроенным сервисом аналитики телеграмм каналов
+						</h1>
+						<button class="mainscreen__btn button button_gradient" type="button">Разместить рекламу</button>
+					</div>
+				</div>
+				<picture><source srcset="img/mainscreen/1.webp" type="image/webp"><img class="mainscreen__bg" src="img/mainscreen/1.png" alt="Платформа для размещения нативной рекламы в Телеграм со встроенным сервисом аналитики телеграмм каналов"></picture>
+			</section>
+			<section class="advantages">
+				<div class="advantages__container container">
+					<h2 class="title title_center">Преимущества рекламной платформы</h2>
+					<div class="advantages__list">
+						<div class="item-advantages squire squire_sm">
+							<div class="item-advantages__img">
+								<picture><source srcset="img/advantages/1.webp" type="image/webp"><img class="img-fluid" src="img/advantages/1.png" alt="Эффективные форматы рекламы"></picture>
+							</div>
+							<h4 class="label-dark-blue label-dark-blue_s24">Эффективные форматы рекламы</h4>
+							<p class="label-light-blue">Нативные рекламные публикации и репосты</p>
+						</div>
+						<div class="item-advantages squire squire_sm">
+							<div class="item-advantages__img">
+								<picture><source srcset="img/advantages/2.webp" type="image/webp"><img class="img-fluid" src="img/advantages/2.png" alt="Большой реальный охват аудитории"></picture>
+							</div>
+							<h4 class="label-dark-blue label-dark-blue_s24">Большой реальный охват аудитории</h4>
+							<p class="label-light-blue">Высокий показатель просмотра публикаций, до 40% от подписчиков</p>
+						</div>
+						<div class="item-advantages squire squire_sm">
+							<div class="item-advantages__img">
+								<picture><source srcset="img/advantages/1.webp" type="image/webp"><img class="img-fluid" src="img/advantages/1.png" alt="Аналитика эффективности"></picture>
+							</div>
+							<h4 class="label-dark-blue label-dark-blue_s24">Аналитика эффективности</h4>
+							<p class="label-light-blue">Встроенная система аналитики эффективности рекламы</p>
+						</div>
+						<div class="item-advantages squire squire_sm">
+							<div class="item-advantages__img">
+								<picture><source srcset="img/advantages/4.webp" type="image/webp"><img class="img-fluid" src="img/advantages/4.png" alt="Гибкая система третирования"></picture>
+							</div>
+							<h4 class="label-dark-blue label-dark-blue_s24">Гибкая система третирования</h4>
+							<p class="label-light-blue">Выбирайте Телеграмм каналы, соответствующие по тематике и показателям эффективности</p>
+						</div>
+						<div class="item-advantages squire squire_sm">
+							<div class="item-advantages__img">
+								<picture><source srcset="img/advantages/5.webp" type="image/webp"><img class="img-fluid" src="img/advantages/5.png" alt="Удобный кабинет рекламодателя"></picture>
+							</div>
+							<h4 class="label-dark-blue label-dark-blue_s24">Удобный кабинет рекламодателя</h4>
+							<p class="label-light-blue label-light-blue_s20">Вы сможете самостоятельно размещать рекламные публикации</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="counters">
+				<div class="counters__container">
+					<div class="counters__item">
+						<div class="label-blue label-blue_s24">Кол-во ТГ каналов</div>
+						<div class="counters__num">6 789 678</div>
+					</div>
+					<div class="counters__item">
+						<div class="label-blue label-blue_s24">Кол-во подписчиков</div>
+						<div class="counters__num">6 789 678</div>
+					</div>
+					<div class="counters__item">
+						<div class="label-blue label-blue_s24">Суммарный охват</div>
+						<div class="counters__num">6 789 678</div>
+					</div>
+				</div>
+			</section>
+			<section class="current-offers">
+				<div class="current-offers__container container">
+					<h2 class="title title_center">Актуальные предложения</h2>
+					<div data-showmore class="current-offers">
+						<div data-showmore-content="705" class="current-offers__content">
+							<div class="table-wrap">
+								<table class="table">
+									<thead>
+										<tr>
+											<th scope="col">
+												<div class="label-white label-white_s16">Канал</div>
+											</th>
+											<th scope="col">
+												<div class="label-white label-white_s16">Подписчики</div>
+											</th>
+											<th>
+												<div class="label-white label-white_s16">Охват</div>
+											</th>
+											<th>
+												<div class="label-white label-white_s16">Размещение</div>
+											</th>
+											<th>
+
+											</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td class="table-row" scope="row">
+												<div class="table-row__head">
+													<a href="#" target="_blank" class="table-row__img">
+														<picture><source srcset="img/current-offers/1.webp" type="image/webp"><img class="img-fluid" src="img/current-offers/1.png" alt=""></picture>
+													</a>
+													<div class="table-row__content">
+														<div class="table-row__content">
+															<a href="#" target="_blank" class="label-white hhv-blue">Добрые новости</a>
+															<a href="https://t.me/@NiceJournal" class="table-row__name">
+																@NiceJournal
+															</a>
+														</div>
+													</div>
+												</div>
+											</td>
+											<td class="table-row">
+												<div class="label-white">679.345</div>
+											</td>
+											<td class="table-row">
+												<div class="label-white">53657</div>
+											</td>
+											<td class="table-row">
+												<div class="table-row__column">
+													<div class="label-light-green">30000 ₽</div>
+													<div class="label-white">48 часов</div>
+												</div>
+											</td>
+											<td class="table-row">
+												<button class="button button_dark-green button_sm button_no-bg" type="button">Описание</button>
+											</td>
+										</tr>
+										<tr>
+											<td class="table-row" scope="row">
+												<div class="table-row__head">
+													<a href="#" target="_blank" class="table-row__img">
+														<picture><source srcset="img/current-offers/2.webp" type="image/webp"><img class="img-fluid" src="img/current-offers/2.png" alt=""></picture>
+													</a>
+													<div class="table-row__content">
+														<div class="table-row__content">
+															<a href="#" target="_blank" class="label-white hhv-blue">VK Music Bot</a>
+															<a href="https://t.me/@vkmusicbot1" class="table-row__name">
+																@vkmusicbot1
+															</a>
+														</div>
+													</div>
+												</div>
+											</td>
+											<td class="table-row">
+												<div class="label-white">679.345</div>
+											</td>
+											<td class="table-row">
+												<div class="label-white">53657</div>
+											</td>
+											<td class="table-row">
+												<div class="table-row__column">
+													<div class="label-light-green">30000 ₽</div>
+													<div class="label-white">48 часов</div>
+												</div>
+											</td>
+											<td class="table-row">
+												<button class="button button_dark-green button_sm button_no-bg" type="button">Описание</button>
+											</td>
+										</tr>
+										<tr>
+											<td class="table-row" scope="row">
+												<div class="table-row__head">
+													<a href="#" target="_blank" class="table-row__img">
+														<picture><source srcset="img/current-offers/3.webp" type="image/webp"><img class="img-fluid" src="img/current-offers/3.png" alt=""></picture>
+													</a>
+													<div class="table-row__content">
+														<div class="table-row__content">
+															<a href="#" target="_blank" class="label-white hhv-blue">НОВЫЕ ФИЛЬМЫ 2023</a>
+															<a href="https://t.me/@NiceJournal" class="table-row__name">
+																@NiceJournal
+															</a>
+														</div>
+													</div>
+												</div>
+											</td>
+											<td class="table-row">
+												<div class="label-white">679.345</div>
+											</td>
+											<td class="table-row">
+												<div class="label-white">53657</div>
+											</td>
+											<td class="table-row">
+												<div class="table-row__column">
+													<div class="label-light-green">30000 ₽</div>
+													<div class="label-white">48 часов</div>
+												</div>
+											</td>
+											<td class="table-row">
+												<button class="button button_dark-green button_sm button_no-bg" type="button">Описание</button>
+											</td>
+										</tr>
+										<tr>
+											<td class="table-row" scope="row">
+												<div class="table-row__head">
+													<a href="#" target="_blank" class="table-row__img">
+														<picture><source srcset="img/current-offers/4.webp" type="image/webp"><img class="img-fluid" src="img/current-offers/4.png" alt=""></picture>
+													</a>
+													<div class="table-row__content">
+														<div class="table-row__content">
+															<a href="#" target="_blank" class="label-white hhv-blue">VK Music Bot</a>
+															<a href="https://t.me/@vkmusicbot1" class="table-row__name">
+																@vkmusicbot1
+															</a>
+														</div>
+													</div>
+												</div>
+											</td>
+											<td class="table-row">
+												<div class="label-white">679.345</div>
+											</td>
+											<td class="table-row">
+												<div class="label-white">53657</div>
+											</td>
+											<td class="table-row">
+												<div class="table-row__column">
+													<div class="label-light-green">30000 ₽</div>
+													<div class="label-white">48 часов</div>
+												</div>
+											</td>
+											<td class="table-row">
+												<button class="button button_dark-green button_sm button_no-bg" type="button">Описание</button>
+											</td>
+										</tr>
+										<tr>
+											<td class="table-row" scope="row">
+												<div class="table-row__head">
+													<a href="#" target="_blank" class="table-row__img">
+														<picture><source srcset="img/current-offers/1.webp" type="image/webp"><img class="img-fluid" src="img/current-offers/1.png" alt=""></picture>
+													</a>
+													<div class="table-row__content">
+														<div class="table-row__content">
+															<a href="#" target="_blank" class="label-white hhv-blue">Добрые новости</a>
+															<a href="https://t.me/@NiceJournal" class="table-row__name">
+																@NiceJournal
+															</a>
+														</div>
+													</div>
+												</div>
+											</td>
+											<td class="table-row">
+												<div class="label-white">679.345</div>
+											</td>
+											<td class="table-row">
+												<div class="label-white">53657</div>
+											</td>
+											<td class="table-row">
+												<div class="table-row__column">
+													<div class="label-light-green">30000 ₽</div>
+													<div class="label-white">48 часов</div>
+												</div>
+											</td>
+											<td class="table-row">
+												<button class="button button_dark-green button_sm button_no-bg" type="button">Описание</button>
+											</td>
+										</tr>
+										<tr>
+											<td class="table-row" scope="row">
+												<div class="table-row__head">
+													<a href="#" target="_blank" class="table-row__img">
+														<picture><source srcset="img/current-offers/2.webp" type="image/webp"><img class="img-fluid" src="img/current-offers/2.png" alt=""></picture>
+													</a>
+													<div class="table-row__content">
+														<div class="table-row__content">
+															<a href="#" target="_blank" class="label-white hhv-blue">VK Music Bot</a>
+															<a href="https://t.me/@vkmusicbot1" class="table-row__name">
+																@vkmusicbot1
+															</a>
+														</div>
+													</div>
+												</div>
+											</td>
+											<td class="table-row">
+												<div class="label-white">679.345</div>
+											</td>
+											<td class="table-row">
+												<div class="label-white">53657</div>
+											</td>
+											<td class="table-row">
+												<div class="table-row__column">
+													<div class="label-light-green">30000 ₽</div>
+													<div class="label-white">48 часов</div>
+												</div>
+											</td>
+											<td class="table-row">
+												<button class="button button_dark-green button_sm button_no-bg" type="button">Описание</button>
+											</td>
+										</tr>
+										<tr>
+											<td class="table-row" scope="row">
+												<div class="table-row__head">
+													<a href="#" target="_blank" class="table-row__img">
+														<picture><source srcset="img/current-offers/3.webp" type="image/webp"><img class="img-fluid" src="img/current-offers/3.png" alt=""></picture>
+													</a>
+													<div class="table-row__content">
+														<div class="table-row__content">
+															<a href="#" target="_blank" class="label-white hhv-blue">НОВЫЕ ФИЛЬМЫ 2023</a>
+															<a href="https://t.me/@NiceJournal" class="table-row__name">
+																@NiceJournal
+															</a>
+														</div>
+													</div>
+												</div>
+											</td>
+											<td class="table-row">
+												<div class="label-white">679.345</div>
+											</td>
+											<td class="table-row">
+												<div class="label-white">53657</div>
+											</td>
+											<td class="table-row">
+												<div class="table-row__column">
+													<div class="label-light-green">30000 ₽</div>
+													<div class="label-white">48 часов</div>
+												</div>
+											</td>
+											<td class="table-row">
+												<button class="button button_dark-green button_sm button_no-bg" type="button">Описание</button>
+											</td>
+										</tr>
+										<tr>
+											<td class="table-row" scope="row">
+												<div class="table-row__head">
+													<a href="#" target="_blank" class="table-row__img">
+														<picture><source srcset="img/current-offers/4.webp" type="image/webp"><img class="img-fluid" src="img/current-offers/4.png" alt=""></picture>
+													</a>
+													<div class="table-row__content">
+														<div class="table-row__content">
+															<a href="#" target="_blank" class="label-white hhv-blue">VK Music Bot</a>
+															<a href="https://t.me/@vkmusicbot1" class="table-row__name">
+																@vkmusicbot1
+															</a>
+														</div>
+													</div>
+												</div>
+											</td>
+											<td class="table-row">
+												<div class="label-white">679.345</div>
+											</td>
+											<td class="table-row">
+												<div class="label-white">53657</div>
+											</td>
+											<td class="table-row">
+												<div class="table-row__column">
+													<div class="label-light-green">30000 ₽</div>
+													<div class="label-white">48 часов</div>
+												</div>
+											</td>
+											<td class="table-row">
+												<button class="button button_dark-green button_sm button_no-bg" type="button">Описание</button>
+											</td>
+										</tr>
+										<tr>
+											<td class="table-row" scope="row">
+												<div class="table-row__head">
+													<a href="#" target="_blank" class="table-row__img">
+														<picture><source srcset="img/current-offers/3.webp" type="image/webp"><img class="img-fluid" src="img/current-offers/3.png" alt=""></picture>
+													</a>
+													<div class="table-row__content">
+														<div class="table-row__content">
+															<a href="#" target="_blank" class="label-white hhv-blue">НОВЫЕ ФИЛЬМЫ 2023</a>
+															<a href="https://t.me/@NiceJournal" class="table-row__name">
+																@NiceJournal
+															</a>
+														</div>
+													</div>
+												</div>
+											</td>
+											<td class="table-row">
+												<div class="label-white">679.345</div>
+											</td>
+											<td class="table-row">
+												<div class="label-white">53657</div>
+											</td>
+											<td class="table-row">
+												<div class="table-row__column">
+													<div class="label-light-green">30000 ₽</div>
+													<div class="label-white">48 часов</div>
+												</div>
+											</td>
+											<td class="table-row">
+												<button class="button button_dark-green button_sm button_no-bg" type="button">Описание</button>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<div class="current-offers__bottom">
+							<button hidden data-showmore-button type="button" class="current-offers__more label-blue label-blue_s24 label-underline hhv-green">
+								<span>Посмотреть все</span><span>Скыть</span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="place-ad">
+				<picture><source srcset="img/place-ad/1.webp" type="image/webp"><img class="place-ad__bg" src="img/place-ad/1.png" alt=""></picture>
+				<div class="place-ad__container container container_big">
+					<h2 class="title title_center">Разместить рекламу</h2>
+					<div class="place-ad__content">
+						<div class="place-ad__text text-wrap">
+							<p class="text">
+								Скудный функциональный арсенал телеграма ограничивает читателя в подборе качественных площадок. Обычному обывателю слишком сложно аргументированно ответить
+								на вопрос «как искать интересные телеграм каналы», поэтому мы помогаем справиться с этой задачей в два клика.
+							</p>
+							<p class="text">
+								Здесь вы можете рекламировать:
+							</p>
+							<div>
+								<p class="text">
+									B2B/B2Cтовары и услуги
+								</p>
+								<p class="text">
+									Обучающие курсы, вебинары и семинары
+								</p>
+								<p class="text">
+									Онлайн сервисы и мобильные приложения
+								</p>
+								<p class="text">
+									Онлайн и офлайн ивенты
+								</p>
+								<p class="text">
+									Телеграмм каналы и социальные сети
+								</p>
+							</div>
+						</div>
+						<div class="place-ad__actions">
+							<a href="register.html" class="button button_gradient button_mobi-sm" type="button">Зарегистрироваться по телефону или эл.почте</a>
+							<div class="label-white label-white_s16 label-white_fw700">или продолжить с</div>
+							<div class="place-ad__btns">
+								<button class="button button_sm button_no-bg" type="button">
+									<picture><source srcset="img/place-ad/tg.webp" type="image/webp"><img src="img/place-ad/tg.png" alt=""></picture>
+									Telegram
+								</button>
+								<button class="button button_sm button_no-bg" type="button">
+									<picture><source srcset="img/place-ad/google.webp" type="image/webp"><img src="img/place-ad/google.png" alt=""></picture>
+									Google
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="reviews">
+				<div class="reviews__container container">
+					<div class="reviews__head">
+						<h2 class="title title_center">Отзывы наших клиентов</h2>
+					</div>
+					<div data-showmore="items" class="reviews">
+						<ul data-showmore-content="1" class="reviews__content reviews__list">
+							<li class="item-reviews squire">
+								<div class="label-black label-black_s20">Александр</div>
+								<a href="#" target="_blank" class="item-reviews__link hhv-blue">Интернет магазин BUMEKS</a>
+								<div class="item-reviews__stars">
+									<img class="item-reviews__star" src="img/icons/star.svg" alt="">
+									<img class="item-reviews__star" src="img/icons/star.svg" alt="">
+									<img class="item-reviews__star" src="img/icons/star.svg" alt="">
+									<img class="item-reviews__star" src="img/icons/star.svg" alt="">
+									<img class="item-reviews__star" src="img/icons/star.svg" alt="">
+								</div>
+								<div data-showmore data-showmore-media="480" class="item-reviews">
+									<div data-showmore-content="65" class="item-reviews__content">
+										<p class="text text_s20 text_black">
+											Маркетплейс с профессиональным подходом и высокими требованиями по обслуживанию клиентов. При покупке количество заказов постепенно удвоилось и продолжает свой рост.
+										</p>
+									</div>
+									<button hidden data-showmore-button type="button" class="item-reviews__more"><span>Еще</span><span>Скыть</span></button>
+								</div>
+							</li>
+							<li class="item-reviews squire">
+								<div class="label-black label-black_s20">Александр</div>
+								<a href="#" target="_blank" class="item-reviews__link hhv-blue">Интернет магазин BUMEKS</a>
+								<div class="item-reviews__stars">
+									<img class="item-reviews__star" src="img/icons/star.svg" alt="">
+									<img class="item-reviews__star" src="img/icons/star.svg" alt="">
+									<img class="item-reviews__star" src="img/icons/star.svg" alt="">
+									<img class="item-reviews__star" src="img/icons/star.svg" alt="">
+									<img class="item-reviews__star" src="img/icons/star.svg" alt="">
+								</div>
+								<div data-showmore data-showmore-media="480" class="item-reviews">
+									<div data-showmore-content="65" class="item-reviews__content">
+										<p class="text text_s20 text_black">
+											Маркетплейс с профессиональным подходом и высокими требованиями по обслуживанию клиентов. При покупке количество заказов постепенно удвоилось и продолжает свой рост.
+										</p>
+									</div>
+									<button hidden data-showmore-button type="button" class="item-reviews__more"><span>Еще</span><span>Скыть</span></button>
+								</div>
+							</li>
+							<li class="item-reviews squire">
+								<div class="label-black label-black_s20">Александр</div>
+								<a href="#" target="_blank" class="item-reviews__link hhv-blue">Интернет магазин BUMEKS</a>
+								<div class="item-reviews__stars">
+									<img class="item-reviews__star" src="img/icons/star.svg" alt="">
+									<img class="item-reviews__star" src="img/icons/star.svg" alt="">
+									<img class="item-reviews__star" src="img/icons/star.svg" alt="">
+									<img class="item-reviews__star" src="img/icons/star.svg" alt="">
+									<img class="item-reviews__star" src="img/icons/star.svg" alt="">
+								</div>
+								<div data-showmore data-showmore-media="480" class="item-reviews">
+									<div data-showmore-content="65" class="item-reviews__content">
+										<p class="text text_s20 text_black">
+											Маркетплейс с профессиональным подходом и высокими требованиями по обслуживанию клиентов. При покупке количество заказов постепенно удвоилось и продолжает свой рост.
+										</p>
+									</div>
+									<button hidden data-showmore-button type="button" class="item-reviews__more"><span>Еще</span><span>Скыть</span></button>
+								</div>
+							</li>
+							<li class="item-reviews squire">
+								<div class="label-black label-black_s20">Александр</div>
+								<a href="#" target="_blank" class="item-reviews__link hhv-blue">Интернет магазин BUMEKS</a>
+								<div class="item-reviews__stars">
+									<img class="item-reviews__star" src="img/icons/star.svg" alt="">
+									<img class="item-reviews__star" src="img/icons/star.svg" alt="">
+									<img class="item-reviews__star" src="img/icons/star.svg" alt="">
+									<img class="item-reviews__star" src="img/icons/star.svg" alt="">
+									<img class="item-reviews__star" src="img/icons/star.svg" alt="">
+								</div>
+								<div data-showmore data-showmore-media="480" class="item-reviews">
+									<div data-showmore-content="65" class="item-reviews__content">
+										<p class="text text_s20 text_black">
+											Маркетплейс с профессиональным подходом и высокими требованиями по обслуживанию клиентов. При покупке количество заказов постепенно удвоилось и продолжает свой рост.
+										</p>
+									</div>
+									<button hidden data-showmore-button type="button" class="item-reviews__more"><span>Еще</span><span>Скыть</span></button>
+								</div>
+							</li>
+						</ul>
+						<div class="reviews__bottom">
+							<button hidden data-showmore-button type="button" class="reviews__more hhv-blue"><span>Все отзывы</span><span>Скыть</span></button>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<picture><source srcset="img/footer/bg-1.webp" type="image/webp"><img class="footer__bg footer__bg_left" src="img/footer/bg-1.png" alt=""></picture>
+			<picture><source srcset="img/footer/bg-2.webp" type="image/webp"><img class="footer__bg footer__bg_right" src="img/footer/bg-2.png" alt=""></picture>
+			<div class="footer__container">
+				<div class="footer__col">
+					<h2 class="title title_green title_sm">Контакты</h2>
+					<div class="footer__lists">
+						<div class="footer__sociable">
+							<ul class="footer__sociable-list">
+								<li class="sociable-item">
+									<div class="sociable-item__icon">
+										<img class="img-fluid" src="img/icons/tg.svg" alt="@TGnative">
+									</div>
+									<div class="sociable-item__content">
+										<a href="https://t.me/@TGnative" target="_blank" class="sociable-item__link hhv-green">@TGnative</a>
+										<div class="sociable-item__text">Мы в телеграме</div>
+									</div>
+								</li>
+								<li class="sociable-item">
+									<div class="sociable-item__icon">
+										<img class="img-fluid" src="img/icons/mail.svg" alt="support@telegraph.ua">
+									</div>
+									<div class="sociable-item__content">
+										<a href="mailto:support@telegraph.ua" target="_blank" class="sociable-item__link hhv-green">support@telegraph.ua</a>
+										<div class="sociable-item__text">Почта технической поддержки</div>
+									</div>
+								</li>
+								<li class="sociable-item">
+									<div class="sociable-item__icon">
+										<img class="img-fluid" src="img/icons/instagram.svg" alt="@TGnative">
+									</div>
+									<div class="sociable-item__content">
+										<a href=" https://www.instagram.com/smm-novastar/telegraph_ua" target="_blank" class="sociable-item__link hhv-green">telegraph_ua</a>
+										<div class="sociable-item__text">Наш аккаунт в инстаграме</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__navs">
+							<nav class="footer__nav">
+								<a href="about.html" class="footer__link hhv-blue">О нас</a>
+								<a href="faq.html" class="footer__link hhv-blue">FAQ</a>
+								<a href="catalog.html" class="footer__link hhv-blue">Каталог ТГ каналов</a>
+							</nav>
+							<nav data-da=".footer__pay,480.98" class="footer__nav footer__nav_gap-sm">
+								<a href="https://collaborator.pro/ua/cookies-policy" class="footer__link footer__link_underline">Политика использования файлов cookie</a>
+								<a href="https://collaborator.pro/ua/privacy-policy" class="footer__link footer__link_underline">Политика конфиденциальности</a>
+							</nav>
+						</div>
+					</div>
+					<div class="footer__pay">
+						<picture><source srcset="img/footer/visa.webp" type="image/webp"><img class="footer__sociable-pay-img" src="img/footer/visa.png" alt=""></picture>
+						<picture><source srcset="img/footer/mc.webp" type="image/webp"><img class="footer__sociable-pay-img" src="img/footer/mc.png" alt=""></picture>
+					</div>
+				</div>
+				<div class="footer__col">
+					<div class="footer__col-img">
+						<picture><source srcset="img/footer/apps.webp" type="image/webp"><img class="img-fluid" src="img/footer/apps.png" alt="Контакты"></picture>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.js?_v=20240118214023"></script>
+	<script src="js/app.min.js?_v=20240118214023"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/intlTelInput.min.js?_v=20240118214023"></script>
+
+	<script>
+		const inputinputPhone1 = document.querySelector("#phone");
+		window.intlTelInput(inputinputPhone1, {
+			initialCountry: "ua",
+			separateDialCode: true,
+			utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/utils.js",
+		});
+	</script>
+</body>
+
+</html>

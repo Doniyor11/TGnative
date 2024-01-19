@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Списки каналов</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap&_v=20240118214023" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240118214023">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/css/intlTelInput.css?_v=20240118214023">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__column">
+					<a href="home.html" class="header__logo">
+						<picture><source srcset="img/logo.webp" type="image/webp"><img class="img-fluid" src="img/logo.png" alt=""></picture>
+					</a>
+					<div data-dropdown class="header__dropdown  dropdown-lang dropdown-header">
+						<button data-dropdown-btn class="dropdown-header__btn" type="button">
+							<span>Ua</span>
+							<img src="img/icons/triangle.svg" class="arrow" alt="">
+						</button>
+						<div class="dropdown-lang__list">
+							<a href="#" class="dropdown-lang__item hhv-green">Eng</a>
+							<a href="#" class="dropdown-lang__item hhv-green">Ru</a>
+						</div>
+					</div>
+				</div>
+				<div class="header__column">
+					<div class="header__menu">
+						<a href="about.html" class="header__link hhv-green ">О платформе</a>
+						<a href="catalog.html" class="header__link hhv-green ">Каталог каналов</a>
+					</div>
+					<div class="header__btns">
+						<a href="register.html" class="header__btn button button_no-bg button_sm">Регистрация</a>
+						<a href="sing-in.html" class="button button_sm">
+							Войти
+							<img src="img/icons/login.svg" alt="">
+						</a>
+					</div>
+					<div data-dropdown class="header__dropdown dropdown-header">
+						<button data-dropdown-btn class="dropdown-header__btn icon-menu" type="button">
+							<span></span>
+						</button>
+						<div class="dropdown-header__list dropdown-header__list_main">
+							<div class="dropdown-header__item">
+								<span>
+									<a href="sing-in.html" data-da=".dropdown-header__item span,767.98" type="button">
+										Войти
+										<img src="img/icons/login-blue.svg" alt="">
+									</a>
+								</span>
+								<img src="img/icons/arrow-right.svg" class="arrow" alt="">
+							</div>
+							<a href="register.html" class="dropdown-header__item">
+								<span>Регистрация</span>
+								<img src="img/icons/arrow-right.svg" class="arrow" alt="">
+							</a>
+							<a href="about.html" class="dropdown-header__item dropdown-header__item_active">
+								<span>
+									О платформе
+								</span>
+							</a>
+							<a href="catalog.html" class="dropdown-header__item">
+								<span>
+									Каталог каналов
+								</span>
+							</a>
+							<a href="tracking-posts.html" class="dropdown-header__item">
+								<span>
+									Отслеживание постов
+								</span>
+							</a>
+							<a href="my-channels.html" class="dropdown-header__item">
+								<span>
+									Мои каналы
+								</span>
+							</a>
+							<a href="faq.html" class="dropdown-header__item">
+								<span>
+									FAQ
+								</span>
+							</a>
+							<a href="home.html" class="dropdown-header__item">
+								<span>
+									Вернуться на главную
+								</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="channels-lists">
+				<div class="channels-lists__container container">
+					<h2 class="title">Сохраненное</h2>
+					<div data-tabs class="tabs">
+						<nav data-tabs-titles class="tabs-navigation">
+							<button type="button" class="tabs-navigation__title _tab-active">Мое</button>
+							<button type="button" class="tabs-navigation__title">Рекомендованное</button>
+						</nav>
+						<div data-tabs-body class="tabs__content">
+							<div class="tabs__body">
+								<form action="#" method="post" class="channels-lists__form">
+									<input class="channels-lists__input" type="text" name="name" id="name" placeholder="Название">
+									<button class="button" type="submit">Создать список</button>
+								</form>
+								<div class="table-wrap">
+									<table class="table table_sm">
+										<thead>
+											<tr>
+												<th scope="col">
+													<div class="label-date label-date_sm label-grey label-grey_s16">
+														Название
+														<img src="img/icons/triangle.svg" alt="">
+													</div>
+												</th>
+												<th scope="col">
+													<div class="label-grey label-grey_s16">Каналы</div>
+												</th>
+												<th>
+													<div class="label-grey label-grey_s16">Дата обновления</div>
+												</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td class="table-row" scope="row">
+													<div class="table-row__head">
+														<a class="label-white label-white_s20 hhv-green" href="#">Выбранное</a>
+													</div>
+												</td>
+												<td class="table-row">
+													<div class="label-dark-green label-dark-green_s24">0</div>
+												</td>
+												<td class="table-row">
+													<div class="label-date">
+														<span>11.03.2023</span>
+														<span>12:40</span>
+													</div>
+												</td>
+											</tr>
+											<tr>
+												<td class="table-row" scope="row">
+													<div class="table-row__head">
+														<a class="label-white label-white_s20 hhv-green" href="#">Черный список</a>
+													</div>
+												</td>
+												<td class="table-row">
+													<div class="label-dark-green label-dark-green_s24">1</div>
+												</td>
+												<td class="table-row">
+													<div class="label-date">
+														<span>11.03.2023</span>
+														<span>12:40</span>
+													</div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div class="tabs__body">
+								Содержимое второго таба
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<picture><source srcset="img/footer/bg-1.webp" type="image/webp"><img class="footer__bg footer__bg_left" src="img/footer/bg-1.png" alt=""></picture>
+			<picture><source srcset="img/footer/bg-2.webp" type="image/webp"><img class="footer__bg footer__bg_right" src="img/footer/bg-2.png" alt=""></picture>
+			<div class="footer__container">
+				<div class="footer__col">
+					<h2 class="title title_green title_sm">Контакты</h2>
+					<div class="footer__lists">
+						<div class="footer__sociable">
+							<ul class="footer__sociable-list">
+								<li class="sociable-item">
+									<div class="sociable-item__icon">
+										<img class="img-fluid" src="img/icons/tg.svg" alt="@TGnative">
+									</div>
+									<div class="sociable-item__content">
+										<a href="https://t.me/@TGnative" target="_blank" class="sociable-item__link hhv-green">@TGnative</a>
+										<div class="sociable-item__text">Мы в телеграме</div>
+									</div>
+								</li>
+								<li class="sociable-item">
+									<div class="sociable-item__icon">
+										<img class="img-fluid" src="img/icons/mail.svg" alt="support@telegraph.ua">
+									</div>
+									<div class="sociable-item__content">
+										<a href="mailto:support@telegraph.ua" target="_blank" class="sociable-item__link hhv-green">support@telegraph.ua</a>
+										<div class="sociable-item__text">Почта технической поддержки</div>
+									</div>
+								</li>
+								<li class="sociable-item">
+									<div class="sociable-item__icon">
+										<img class="img-fluid" src="img/icons/instagram.svg" alt="@TGnative">
+									</div>
+									<div class="sociable-item__content">
+										<a href=" https://www.instagram.com/smm-novastar/telegraph_ua" target="_blank" class="sociable-item__link hhv-green">telegraph_ua</a>
+										<div class="sociable-item__text">Наш аккаунт в инстаграме</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__navs">
+							<nav class="footer__nav">
+								<a href="about.html" class="footer__link hhv-blue">О нас</a>
+								<a href="faq.html" class="footer__link hhv-blue">FAQ</a>
+								<a href="catalog.html" class="footer__link hhv-blue">Каталог ТГ каналов</a>
+							</nav>
+							<nav data-da=".footer__pay,480.98" class="footer__nav footer__nav_gap-sm">
+								<a href="https://collaborator.pro/ua/cookies-policy" class="footer__link footer__link_underline">Политика использования файлов cookie</a>
+								<a href="https://collaborator.pro/ua/privacy-policy" class="footer__link footer__link_underline">Политика конфиденциальности</a>
+							</nav>
+						</div>
+					</div>
+					<div class="footer__pay">
+						<picture><source srcset="img/footer/visa.webp" type="image/webp"><img class="footer__sociable-pay-img" src="img/footer/visa.png" alt=""></picture>
+						<picture><source srcset="img/footer/mc.webp" type="image/webp"><img class="footer__sociable-pay-img" src="img/footer/mc.png" alt=""></picture>
+					</div>
+				</div>
+				<div class="footer__col">
+					<div class="footer__col-img">
+						<picture><source srcset="img/footer/apps.webp" type="image/webp"><img class="img-fluid" src="img/footer/apps.png" alt="Контакты"></picture>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.js?_v=20240118214023"></script>
+	<script src="js/app.min.js?_v=20240118214023"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/intlTelInput.min.js?_v=20240118214023"></script>
+
+	<script>
+		const inputinputPhone1 = document.querySelector("#phone");
+		window.intlTelInput(inputinputPhone1, {
+			initialCountry: "ua",
+			separateDialCode: true,
+			utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/utils.js",
+		});
+	</script>
+</body>
+
+</html>

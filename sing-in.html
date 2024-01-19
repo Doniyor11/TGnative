@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Вход</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap&_v=20240118214023" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240118214023">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/css/intlTelInput.css?_v=20240118214023">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__column">
+					<a href="home.html" class="header__logo">
+						<picture><source srcset="img/logo.webp" type="image/webp"><img class="img-fluid" src="img/logo.png" alt=""></picture>
+					</a>
+					<div data-dropdown class="header__dropdown  dropdown-lang dropdown-header">
+						<button data-dropdown-btn class="dropdown-header__btn" type="button">
+							<span>Ua</span>
+							<img src="img/icons/triangle.svg" class="arrow" alt="">
+						</button>
+						<div class="dropdown-lang__list">
+							<a href="#" class="dropdown-lang__item hhv-green">Eng</a>
+							<a href="#" class="dropdown-lang__item hhv-green">Ru</a>
+						</div>
+					</div>
+				</div>
+				<div class="header__column">
+					<div class="header__menu">
+						<a href="#" class="header__link hhv-green ">О платформе</a>
+						<a href="#" class="header__link hhv-green ">Каталог каналов</a>
+					</div>
+					<div class="header__btns">
+						<a href="register.html" class="header__btn button button_no-bg button_sm">Регистрация</a>
+					</div>
+					<div data-dropdown class="header__dropdown dropdown-header">
+						<button data-dropdown-btn class="dropdown-header__btn icon-menu" type="button">
+							<span></span>
+						</button>
+						<div class="dropdown-header__list dropdown-header__list_main">
+							<a href="register.html" class="dropdown-header__item">
+								<span>Регистрация</span>
+								<img src="img/icons/arrow-right.svg" class="arrow" alt="">
+							</a>
+							<a href="about.html" class="dropdown-header__item dropdown-header__item_active">
+								<span>
+									О платформе
+								</span>
+							</a>
+							<a href="#" class="dropdown-header__item">
+								<span>
+									Каталог каналов
+								</span>
+							</a>
+							<a href="#" class="dropdown-header__item">
+								<span>
+									Отслеживание постов
+								</span>
+							</a>
+							<a href="#" class="dropdown-header__item">
+								<span>
+									Мои каналы
+								</span>
+							</a>
+							<a href="#" class="dropdown-header__item">
+								<span>
+									Мои каналы
+								</span>
+							</a>
+							<a href="#" class="dropdown-header__item">
+								<span>
+									FAQ
+								</span>
+							</a>
+							<a href="#" class="dropdown-header__item">
+								<span>
+									Вернуться на главную
+								</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="auth-form">
+				<div class="auth-form__container">
+					<form action="#" method="post" class="auth-form__form">
+						<h1 class="title title_center">Вход</h1>
+						<div class="auth-form__radios">
+							<div class="auth-form__radios-item">
+								<div class="checkbox checkbox_radio">
+									<input id="whyiam1" data-error="Ошибка" class="checkbox__input checkbox__input_oval" type="radio" checked value="1" name="whyiam">
+									<label for="whyiam1" class="checkbox__label"><span class="auth-form__label">Я администратор</span></label>
+								</div>
+							</div>
+							<div class="auth-form__radios-item">
+								<div class="checkbox checkbox_radio">
+									<input id="whyiam2" data-error="Ошибка" class="checkbox__input checkbox__input_oval" type="radio" checked value="1" name="whyiam">
+									<label for="whyiam2" class="checkbox__label"><span class="auth-form__label">Я рекламодатель</span></label>
+								</div>
+							</div>
+						</div>
+						<div class="auth-form__item">
+							<input type="text" name="login" placeholder="Логин" class="auth-form__input">
+						</div>
+						<div class="auth-form__item">
+							<input type="text" name="pass" placeholder="Пароль" class="auth-form__input">
+							<a href="https://collaborator.pro/ua/privacy-policy" class="auth-form__policy hhv-blue">
+								Соглашение об использовании персональных данных
+							</a>
+							<div class="checkbox">
+								<input id="remember" checked data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="remember">
+								<label for="remember" class="checkbox__label">
+									<span class="checkbox__text">Запомнить меня</span>
+								</label>
+							</div>
+						</div>
+						<div class="auth-form__form-bottom">
+							<button class="button button_sm button_no-bg" type="submit">Войти на сайт</button>
+							<div class="auth-form__actions">
+								<a href="register.html" class="auth-form__action hhv-blue">Зарегистрироваться</a>
+								<a href="#" class="auth-form__action hhv-blue">Забыли пароль?</a>
+							</div>
+						</div>
+					</form>
+					<div class="auth-form__bottom">
+						<div class="label-white label-white_s16 label-white_fw700">или продолжить с</div>
+						<div class="place-ad__btns">
+							<button class="button button_sm button_no-bg" type="button">
+								<picture><source srcset="img/place-ad/tg.webp" type="image/webp"><img src="img/place-ad/tg.png" alt=""></picture>
+								Telegram
+							</button>
+							<button class="button button_sm button_no-bg" type="button">
+								<picture><source srcset="img/place-ad/google.webp" type="image/webp"><img src="img/place-ad/google.png" alt=""></picture>
+								Google
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.js?_v=20240118214023"></script>
+	<script src="js/app.min.js?_v=20240118214023"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/intlTelInput.min.js?_v=20240118214023"></script>
+
+	<script>
+		const inputinputPhone1 = document.querySelector("#phone");
+		window.intlTelInput(inputinputPhone1, {
+			initialCountry: "ua",
+			separateDialCode: true,
+			utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/utils.js",
+		});
+	</script>
+</body>
+
+</html>
